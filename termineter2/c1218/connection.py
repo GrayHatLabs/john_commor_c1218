@@ -61,6 +61,7 @@ class Connection:
 		self.logger = logging.getLogger('c1218.connection')
 		self.loggerio = logging.getLogger('c1218.connection.io')
 		self.toggle_control = toggle_control
+		print device
 		if hasattr(serial, 'serial_for_url'):
 			self.serial_h = serial.serial_for_url(device)
 		else:
@@ -69,7 +70,6 @@ class Connection:
 		self.logger.debug('successfully opened serial device: ' + device)
 		if settings:
 			self.logger.debug('applying pySerial settings dictionary')
-			print settings;
 			self.serial_h.parity = settings['parity'] #{'parity':serial.PARITY_NONE,
 			self.serial_h.baudrate = settings['baudrate']#'baudrate': self.advanced_options['BAUDRATE'],
 			self.serial_h.bytesize = settings['bytesize']#'bytesize': self.advanced_options['BYTESIZE'],
@@ -80,11 +80,11 @@ class Connection:
 			self.serial_h.stopbits = settings['stopbits'] #'stopbits': self.advanced_options['STOPBITS'],
 			self.serial_h.dsrdtr = settings['dsrdtr'] #'dsrdtr': False,
 			self.serial_h.writeTimeout = settings['writeTimeout'] #'writeTimeout': None}
-		#TODO: add check for pts porte
-		#self.serial_h.setRTS(True)
-		#self.logger.debug('set RTS to True')
-		#self.serial_h.setDTR(False)
-		#self.logger.debug('set DTR to False')
+		if device.find('/dev/pts') == -1:
+			self.serial_h.setRTS(True)
+			self.logger.debug('set RTS to True')
+			self.serial_h.setDTR(False)
+			self.logger.debug('set DTR to False')
 		self.logged_in = False
 		self.__initialized__ = False
 		self.c1219_endian = '<'
@@ -125,6 +125,7 @@ class Connection:
 		for pktcount in xrange(0, 3):
 			self.write(data)
 			response = self.serial_h.read(1)
+			print 'read send----' + hexlify(response) + '\n'
 			if response == NACK:
 				self.loggerio.warning('received a NACK after writing data')
 				sleep(0.10)
@@ -146,19 +147,27 @@ class Connection:
 		tries = 3
 		while tries:
 			tmpbuffer = self.serial_h.read(1)
+			print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'
 			if tmpbuffer != '\xee':
 				self.loggerio.error('did not receive \\xee as the first byte of the frame')
 				self.loggerio.debug('received \\x' + tmpbuffer.encode('hex') + ' instead')
 				tries -= 1
 				continue
+			print 'got here'
 			tmpbuffer += self.serial_h.read(3)
+			print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'
 			sequence = ord(tmpbuffer[-1])
 			length = self.serial_h.read(2)
+			print 'length --- ' + hexlify(length) + '\n'
 			tmpbuffer += length
+			print 'tmpbuffer + length --- ' + hexlify(tmpbuffer) + '\n'
 			length = unpack('>H', length)[0]
 			payload = self.serial_h.read(length)
+			print 'payload   --- ' + hexlify(payload)
 			tmpbuffer += payload
+			print 'tmpbuffer + payload ---- ' + hexlify(tmpbuffer)
 			chksum = self.serial_h.read(2)
+			print 'chksum ---- ' + hexlify(chksum)
 			if chksum == crc_str(tmpbuffer):
 				self.serial_h.write(ACK)
 				data = tmpbuffer + chksum
@@ -184,6 +193,8 @@ class Connection:
 		@type data: String
 		@param data: The raw data to write to the serial connection.
 		"""
+		
+		print '-----------write ' + hexlify(data) + '\n' 
 		return self.serial_h.write(data)
 	
 	def read(self, size):
@@ -195,8 +206,10 @@ class Connection:
 		@param size: The number of bytes to read from the serial connection.
 		"""
 		data = self.serial_h.read(size)
+		print '--------read' + hexlify(data) + '\n'
 		self.logger.debug('read data, length: ' + str(len(data)) + ' data: ' + hexlify(data))
 		self.serial_h.write(ACK)
+
 		return data
 		
 	def close(self):
