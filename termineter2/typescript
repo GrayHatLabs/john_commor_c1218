@@ -1,0 +1,211 @@
+Script started on Thu 08 Nov 2012 08:24:38 PM MST
+]0;root@bt: ~/Desktop/john_commor_c1218/termineter2[01;31mroot@bt[00m:[01;34m~/Desktop/john_commor_c1218/termineter2[00m# vim typescript 
+[?1049h[?1h=[1;30r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[30;1H"typescript" 0L, 0C[>c[2;1H[1m[34m~                                                                                                         [3;1H~                                                                                                         [4;1H~                                                                                                         [5;1H~                                                                                                         [6;1H~                                                                                                         [7;1H~                                                                                                         [8;1H~                                                                                                         [9;1H~                                                                                                         [10;1H~                                                                                                         [11;1H~                                                                                                         [12;1H~                                                                                                         [13;1H~                                                                                                         [14;1H~                                                                                                         [15;1H~                                                                                                         [16;1H~                                                                                                         [17;1H~                                                                                                         [18;1H~                                                                                                         [19;1H~                                                                                                         [20;1H~                                                                                                         [21;1H~                                                                                                         [22;1H~                                                                                                         [23;1H~                                                                                                         [24;1H~                                                                                                         [25;1H~                                                                                                         [26;1H~                                                                                                         [27;1H~                                                                                                         [28;1H~                                                                                                         [29;1H~                                                                                                         [m[30;89H0,0-1[9CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[30;1H[K[30;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[30;1H[K[30;1H[?1l>[?12l[?25h[?1049l]0;root@bt: ~/Desktop/john_commor_c1218/termineter2[01;31mroot@bt[00m:[01;34m~/Desktop/john_commor_c1218/termineter2[00m# pty[K[Kythone[K termineter2.py 
+
+   ______              _          __         
+  /_  __/__ ______ _  (_)__  ___ / /____ ____
+   / / / -_) __/  ' \/ / _ \/ -_) __/ -_) __/
+  /_/  \__/_/ /_/_/_/_/_//_/\__/\__/\__/_/   
+
+  <[ termineter                     v0.1.0
+  <[ model:                          T-800
+  <[ loaded modules:                    12
+
+termineter > co[K[Kset ocnnec[K[K[K[K[K[Konnec[K[K[K[K[Kconnection /dev/ttyUSB0
+CONNECTION => /dev/ttyUSB0
+termineter > connect
+/dev/ttyUSB0
+-----------write ee0000000001201310
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee002000
+
+length --- 0005
+
+tmpbuffer + length --- ee0020000005
+
+payload   --- 0000010000
+tmpbuffer + payload ---- ee00200000050000010000
+chksum ---- ff42
+-----------write ee0020000005610100010681d2
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee000000
+
+length --- 0005
+
+tmpbuffer + length --- ee0000000005
+
+payload   --- 0001000106
+tmpbuffer + payload ---- ee00000000050001000106
+chksum ---- 4f8f
+-----------write ee000000000d500000303030302020202020207635
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee002000
+
+length --- 0001
+
+tmpbuffer + length --- ee0020000001
+
+payload   --- 00
+tmpbuffer + payload ---- ee002000000100
+chksum ---- 8051
+-----------write ee00200000033000005f7f
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee000000
+
+length --- 0062
+
+tmpbuffer + length --- ee0000000062
+
+payload   --- 00005e020a8a474520200200080c02000f0f030c0104eff9e19e030078e08119000000800b01000000000000007c5c30600086ff7906230f00000000000000dfda7108e0f8e102030068608008000000000a00000000000000005c1410600082849e
+tmpbuffer + payload ---- ee000000006200005e020a8a474520200200080c02000f0f030c0104eff9e19e030078e08119000000800b01000000000000007c5c30600086ff7906230f00000000000000dfda7108e0f8e102030068608008000000000a00000000000000005c1410600082849e
+chksum ---- 4c75
+-----------write ee0000000001219a01
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee002000
+
+length --- 0001
+
+tmpbuffer + length --- ee0020000001
+
+payload   --- 00
+tmpbuffer + payload ---- ee002000000100
+chksum ---- 8051
+[1;32m[+] [1;mSuccessfully connected and the device is responding
+termineter > use [K read_tables
+[1;31m[-] [1;mFailed to load module: read_tables
+termineter > use read_tables[K
+termineter ([1;33mread_table[1;m) > set option
+[1;31m[-] [1;mset: [option] [value]
+termineter ([1;33mread_table[1;m) > set option[K[K[K[K[K[K[K[K[K[Kshow optoi[K[Kions
+
+Module Options
+==============
+
+  Name             Value      Description
+  ----             -----      ------------
+  TABLEID                     table to read from
+
+termineter ([1;33mread_table[1;m) > set TABLEID 1[K0
+TABLEID => 0
+termineter ([1;33mread_table[1;m) > read
+*** Unknown syntax: read
+termineter ([1;33mread_table[1;m) > run
+-----------write ee0020000001208270
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee002000
+
+length --- 0005
+
+tmpbuffer + length --- ee0020000005
+
+payload   --- 0000010000
+tmpbuffer + payload ---- ee00200000050000010000
+chksum ---- ff42
+-----------write ee00000000056101000106b825
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee000000
+
+length --- 0005
+
+tmpbuffer + length --- ee0000000005
+
+payload   --- 0001000106
+tmpbuffer + payload ---- ee00000000050001000106
+chksum ---- 4f8f
+-----------write ee002000000d50000030303030202020202020b424
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee002000
+
+length --- 0001
+
+tmpbuffer + length --- ee0020000001
+
+payload   --- 00
+tmpbuffer + payload ---- ee002000000100
+chksum ---- 8051
+-----------write ee000000001551000000000000000000002020202020202020202010c8
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee000000
+
+length --- 0001
+
+tmpbuffer + length --- ee0000000001
+
+payload   --- 01
+tmpbuffer + payload ---- ee000000000101
+chksum ---- 9820
+-----------write ee0020000001210b61
+
+read send----06
+
+tmpbuffer --- ee
+
+got here
+tmpbuffer --- ee002000
+
+length --- 0001
+
+tmpbuffer + length --- ee0020000001
+
+payload   --- 00
+tmpbuffer + payload ---- ee002000000100
+chksum ---- 8051
+[1;34m[*] [1;mRead 94 bytes
+0000   02 0A 8A 47 45 20 20 02  00 08 0C 02 00 0F 0F 03   ...GE  .........
+0010   0C 01 04 EF F9 E1 9E 03  00 78 E0 81 19 00 00 00   .........x......
+0020   80 0B 01 00 00 00 00 00  00 00 7C 5C 30 60 00 86   ..........|\0`..
+0030   FF 79 06 23 0F 00 00 00  00 00 00 00 DF DA 71 08   .y.#..........q.
+0040   E0 F8 E1 02 03 00 68 60  80 08 00 00 00 00 0A 00   ......h`........
+0050   00 00 00 00 00 00 00 5C  14 10 60 00 82 84         .......\..`...
+termineter ([1;33mread_table[1;m) > Terminated
+]0;root@bt: ~/Desktop/john_commor_c1218/termineter2[01;31mroot@bt[00m:[01;34m~/Desktop/john_commor_c1218/termineter2[00m# 
+]0;root@bt: ~/Desktop/john_commor_c1218/termineter2[01;31mroot@bt[00m:[01;34m~/Desktop/john_commor_c1218/termineter2[00m# clear
+[H[2J]0;root@bt: ~/Desktop/john_commor_c1218/termineter2[01;31mroot@bt[00m:[01;34m~/Desktop/john_commor_c1218/termineter2[00m# exit
+exit
+
+Script done on Fri 09 Nov 2012 09:38:29 AM MST

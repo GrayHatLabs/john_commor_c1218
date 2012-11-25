@@ -125,7 +125,7 @@ class Connection:
 		for pktcount in xrange(0, 3):
 			self.write(data)
 			response = self.serial_h.read(1)
-			print 'read send----' + hexlify(response) + '\n'
+			#print 'read send----' + hexlify(response) + '\n'
 			if response == NACK:
 				self.loggerio.warning('received a NACK after writing data')
 				sleep(0.10)
@@ -147,27 +147,26 @@ class Connection:
 		tries = 3
 		while tries:
 			tmpbuffer = self.serial_h.read(1)
-			print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'
+			#print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'
 			if tmpbuffer != '\xee':
 				self.loggerio.error('did not receive \\xee as the first byte of the frame')
 				self.loggerio.debug('received \\x' + tmpbuffer.encode('hex') + ' instead')
 				tries -= 1
 				continue
-			print 'got here'
 			tmpbuffer += self.serial_h.read(3)
-			print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'
+			#print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'
 			sequence = ord(tmpbuffer[-1])
 			length = self.serial_h.read(2)
-			print 'length --- ' + hexlify(length) + '\n'
+			#print 'length --- ' + hexlify(length) + '\n'
 			tmpbuffer += length
-			print 'tmpbuffer + length --- ' + hexlify(tmpbuffer) + '\n'
+			#print 'tmpbuffer + length --- ' + hexlify(tmpbuffer) + '\n'
 			length = unpack('>H', length)[0]
 			payload = self.serial_h.read(length)
-			print 'payload   --- ' + hexlify(payload)
+			#print 'payload   --- ' + hexlify(payload)
 			tmpbuffer += payload
-			print 'tmpbuffer + payload ---- ' + hexlify(tmpbuffer)
+			#print 'tmpbuffer + payload ---- ' + hexlify(tmpbuffer)
 			chksum = self.serial_h.read(2)
-			print 'chksum ---- ' + hexlify(chksum)
+			#print 'chksum ---- ' + hexlify(chksum)
 			if chksum == crc_str(tmpbuffer):
 				self.serial_h.write(ACK)
 				data = tmpbuffer + chksum
@@ -194,7 +193,7 @@ class Connection:
 		@param data: The raw data to write to the serial connection.
 		"""
 		
-		print '-----------write ' + hexlify(data) + '\n' 
+		#print '-----------write ' + hexlify(data) + '\n' 
 		return self.serial_h.write(data)
 	
 	def read(self, size):
@@ -206,7 +205,7 @@ class Connection:
 		@param size: The number of bytes to read from the serial connection.
 		"""
 		data = self.serial_h.read(size)
-		print '--------read' + hexlify(data) + '\n'
+		#print '--------read' + hexlify(data) + '\n'
 		self.logger.debug('read data, length: ' + str(len(data)) + ' data: ' + hexlify(data))
 		self.serial_h.write(ACK)
 
