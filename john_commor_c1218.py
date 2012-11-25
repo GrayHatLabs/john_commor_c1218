@@ -1,5 +1,8 @@
 import serial
 import binascii
+import sys
+import getopt
+
 
 class power_meter():
 
@@ -16,16 +19,30 @@ class power_meter():
 		self.R = '\xee'
 		self.NACK = '\x15'
 		#self.ser_term = serial.Serial('/dev/pts/'+self.PTS_TERM)
-		self.ser_com = serial.Serial('/dev/pts/' + self.PTS_COM)
+		try:
+			self.ser_com = serial.Serial('/dev/pts/' + self.PTS_COM)
+		except:
+			print 'Error could not open '+ '/dev/pts/' + self.PTS_COM 
+			print "\nMaybe wrong PTS?"
+			print "\n"
+			sys.exit()
+
 		self.flush_pts_term()
 		self.flush_pts_com()
 
 
 	def flush_pts_term(self):
-		ser2 = serial.Serial('/dev/pts/' + self.PTS_TERM)
-		ser2.flushInput()
-		ser2.flushOutput()
-		ser2.close()
+
+		try:
+			ser2 = serial.Serial('/dev/pts/' + self.PTS_TERM)
+			ser2.flushInput()
+			ser2.flushOutput()
+			ser2.close()
+		except:
+			print "Error: Could not flush /dev/pts/" + self.PTS_TERM
+			print "\nMaybe wrong PTS?"
+			sys.exit()
+			
 
 	def flush_pts_com(self):
 		self.ser_com.flushInput()
@@ -315,21 +332,50 @@ class power_meter():
 			return True
 		return False
 
+def usage():
+	print "Please enter both pts ports for \n termineter2 and the power meter emulator."
+	print "\n Example python john_commers.py -t 1 -e 2"
 
-pm = power_meter('3','4') 
-frame = ''
-while 1:
 
-	line = pm.ser_com.read(1) 
-	frame += line
-	#print pm.check(frame)
-	if pm.check(frame):
-		print 'found' 
-		frame = ''
+def main():
 
-	# if the frame has two \xee then we have two write operation in the frame and we need to clear
-	#if frame.count('\xee') > 1 :
-		#print 'reset found'
-		#frame = '\x06\xee'
+	pts_1 = None
+	pts_2 = None
+	#catch options
+	try:
+		opts, args = getopt.getopt(sys.argv[1:], "t:e:")
+	except getopt.GetoptError as err:
+		print str(err)
+		usage()
+		sys.exit(2)
+	for o, a in opts:
+		if o == "-t":
+			pts_1 = a
+		elif o == "-e":
+			pts_2 = a
+		
+	if(pts_1 == None or pts_2 == None):
+		usage()
+		sys.exit(2)
 	
- 
+	pm = power_meter(pts_1,pts_2) 
+	frame = ''
+	print "Power Meter Emulator Started \n"
+	print "Use /dev/pts/"+ pts_1 +" to connect to in termineter2 "
+
+	while 1:
+
+		line = pm.ser_com.read(1) 
+		frame += line
+		if pm.check(frame):
+			print 'found' 
+			frame = ''
+
+		# if the frame has two \xee then we have two write operation in the frame and we need to clear
+		#if frame.count('\xee') > 1 :
+			#print 'reset found'
+			#frame = '\x06\xee'
+	
+
+if __name__ == '__main__' :
+	main()
