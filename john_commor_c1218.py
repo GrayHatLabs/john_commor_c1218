@@ -8,8 +8,8 @@ import sys
 
 class power_meter():
 
-	ACK = '\x06'
-	R = '\xee'
+	ACK  = '\x06'
+	R 	 = '\xee'
 	NACK = '\x15'
 	
 	con = lite.connect('powermeter.db')
@@ -19,9 +19,9 @@ class power_meter():
 		#add input check here
 		self.PTS_TERM = pts_term
 		self.PTS_COM = pts_com
-		self.ACK = '\x06'
-		self.R = '\xee'
-		self.NACK = '\x15'
+		self.ACK 	= '\x06'
+		self.R 		= '\xee'
+		self.NACK 	= '\x15'
 		#self.ser_term = serial.Serial('/dev/pts/'+self.PTS_TERM)
 		try:
 			self.ser_com = serial.Serial('/dev/pts/' + self.PTS_COM)
@@ -72,6 +72,9 @@ class power_meter():
 					self.ser_com.write(write)
 					payload = binascii.a2b_hex(row[1])
 					chksum = binascii.a2b_hex(row[2])
+					print 'write = ' + row[0]
+					print 'payload = ' + row[1]
+					print 'chksum = '+ row[2]
 					self.ser_com.write(payload)
 					self.ser_com.write(chksum)
 					return True

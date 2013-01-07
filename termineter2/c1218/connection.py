@@ -206,6 +206,7 @@ class Connection:
 				else:
 					tries = 3
 			else:
+				print 'bad crc'
 				self.serial_h.write(NACK)
 				self.loggerio.warning('crc does not match on received frame')
 				tries -= 1

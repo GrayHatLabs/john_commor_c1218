@@ -63,8 +63,8 @@ class Connection:
 		self.con = lite.connect('powermeter.db')
 		self.cur = self.con.cursor()    
 		self.data = ''
-		self.cur.execute("create if not exists TABLE response ( id INTEGER PRIMARY KEY AUTOINCREMENT, response TEXT,payload TEXT,chksum TEXT)")
-		self.cur.execute("create if not exists TABLE request  ( id INTEGER PRIMARY KEY AUTOINCREMENT, write TEXT,response_id INTEGER,FOREIGN KEY(response_id) REFERENCES response(id))")
+		self.cur.execute("create TABLE if not exists  response ( id INTEGER PRIMARY KEY AUTOINCREMENT, response TEXT,payload TEXT,chksum TEXT)")
+		self.cur.execute("create TABLE if not exists request  ( id INTEGER PRIMARY KEY AUTOINCREMENT, write TEXT,response_id INTEGER,FOREIGN KEY(response_id) REFERENCES response(id)) ")
 		self.logger = logging.getLogger('c1218.connection')
 		self.loggerio = logging.getLogger('c1218.connection.io')
 		self.toggle_control = toggle_control
@@ -132,7 +132,7 @@ class Connection:
 		for pktcount in xrange(0, 3):
 			self.write(data)
 			response = self.serial_h.read(1)
-			print 'read send----' + hexlify(response) + '\n'
+			#print 'read send----' + hexlify(response) + '\n'
 			if response == NACK:
 				self.loggerio.warning('received a NACK after writing data')
 				sleep(0.10)
@@ -160,8 +160,9 @@ class Connection:
 				self.loggerio.debug('received \\x' + tmpbuffer.encode('hex') + ' instead')
 				tries -= 1
 				continue
+
 			tmpbuffer += self.serial_h.read(3)
-			print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'
+			#print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'
 			sequence = ord(tmpbuffer[-1])
 			length = self.serial_h.read(2)
 			print 'length --- ' + hexlify(length) + '\n'
@@ -190,10 +191,10 @@ class Connection:
 			print " lid:"+str(lid) 
 			self.cur.execute('INSERT INTO request(write,response_id) values (?,?)',(str(hexlify(self.write_data)),str(lid)))
 			self.con.commit()
-
 			self.write_log(',')
 			self.write_log(hexlify(chksum))
 			self.write_log('\n')
+			print 'test'
 			if chksum == crc_str(tmpbuffer):
 				self.serial_h.write(ACK)
 				data = tmpbuffer + chksum
@@ -204,6 +205,7 @@ class Connection:
 				else:
 					tries = 3
 			else:
+				print 'bad crc'
 				self.serial_h.write(NACK)
 				self.loggerio.warning('crc does not match on received frame')
 				tries -= 1
@@ -222,9 +224,9 @@ class Connection:
 		@param data: The raw data to write to the serial connection.
 		"""
 		
-		print '-----------write ' + hexlify(data) + '\n' 
+		#print '-----------write ' + hexlify(data) + '\n' 
 		self.write_data = data 
-		print self.write_log(hexlify(data))
+		#print self.write_log(hexlify(data))
 		
 		return self.serial_h.write(data)
 	
