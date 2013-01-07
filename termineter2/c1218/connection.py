@@ -28,6 +28,8 @@ from c1218.utils import find_strings, data_chksum_str
 from c1218.errors import C1218IOError, C1218ReadTableError, C1218WriteTableError
 from c1219.data import C1219ProcedureInit
 from c1219.errors import C1219ProcedureError
+import sqlite3 as lite
+
 
 ERROR_CODE_DICT = {1:'err (Error)', 2:'sns (Service Not Supported)', 3:'isc (Insufficient Security Clearance)', 4:'onp (Operation Not Possible)', 5:'iar (Inappropriate Action Requested)', 6:'bsy (Device Busy)', 7:'dnr (Data Not Ready)', 8:'dlk (Data Locked)', 9:'rno (Renegotiate Request)', 10:'isss (Invalid Service Sequence State)'}
 
@@ -58,6 +60,13 @@ class Connection:
 		on subsequent requests.  This is enabled only for specific tables
 		(currently only 0 and 1).
 		"""
+		#self.con = lite.connect('password.db')
+		#self.cur = self.con.cursor()    
+		#self.data = ''
+
+		#self.cur.execute("create if not exists TABLE response ( id INTEGER PRIMARY KEY AUTOINCREMENT, response TEXT,payload TEXT,chksum TEXT)")
+    	#self.cur.execute("create if not exists TABLE request  ( id INTEGER PRIMARY KEY AUTOINCREMENT, write TEXT,response_id INTEGER,FOREIGN KEY(response_id) REFERENCES response(id)) ")
+		
 		self.logger = logging.getLogger('c1218.connection')
 		self.loggerio = logging.getLogger('c1218.connection.io')
 		self.toggle_control = toggle_control
@@ -167,6 +176,26 @@ class Connection:
 			#print 'tmpbuffer + payload ---- ' + hexlify(tmpbuffer)
 			chksum = self.serial_h.read(2)
 			#print 'chksum ---- ' + hexlify(chksum)
+			
+			#self.cur = self.con.cursor()    
+			#self.cur.execute('SELECT * FROM response where response = ? and payload = ? and chksum  = ?',(str(hexlify(tmpbuffer)),str(hexlify(payload)),str(hexlify(chksum))))
+			#rows = self.cur.fetchall()
+			#test = len(rows)
+			#lid = 0
+			#if test == 0:
+				#self.cur.execute('INSERT INTO response(response,payload,chksum) values (?,?,?)',(str(hexlify(tmpbuffer)),str(hexlify(payload)),str(hexlify(chksum))))
+				#lid = self.cur.lastrowid
+			#else:
+				#lid = rows[0][0]
+				
+			
+			#print " lid:"+str(lid) 
+			#self.cur.execute('INSERT INTO request(write,response_id) values (?,?)',(str(hexlify(self.write_data)),str(lid)))
+			#self.con.commit()
+
+			self.write_log(',')
+			self.write_log(hexlify(chksum))
+			self.write_log('\n')
 			if chksum == crc_str(tmpbuffer):
 				self.serial_h.write(ACK)
 				data = tmpbuffer + chksum
@@ -184,6 +213,8 @@ class Connection:
 		raise C1218IOError('failed 3 times to correctly receive a frame')
 	
 	def write(self, data):
+
+
 		"""
 		Write raw data to the serial connection. The CRC must already be
 		included at the end. This function is not meant to be called
@@ -194,6 +225,9 @@ class Connection:
 		"""
 		
 		#print '-----------write ' + hexlify(data) + '\n' 
+		self.write_data = data 
+		#print self.write_log(hexlify(data))
+		
 		return self.serial_h.write(data)
 	
 	def read(self, size):
@@ -286,6 +320,12 @@ class Connection:
 		self.logged_in = True
 		return True
 	
+	def write_log(self,text):
+		myFile = open('brute_force_log.txt', 'w')
+		myFile.write(text)
+		myFile.close()
+
+
 	def logoff(self):
 		"""
 		Send a logoff request.

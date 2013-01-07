@@ -2,6 +2,8 @@ import serial
 import binascii
 import sys
 import getopt
+import sqlite3 as lite
+import sys
 
 
 class power_meter():
@@ -9,6 +11,8 @@ class power_meter():
 	ACK = '\x06'
 	R = '\xee'
 	NACK = '\x15'
+	
+	con = lite.connect('powermeter.db')
 
 	def __init__(self,pts_term,pts_com):
 
@@ -48,6 +52,33 @@ class power_meter():
 		self.ser_com.flushInput()
 		self.ser_com.flushOutput()
 
+	def checkdb(self,frame):
+
+		with self.con:
+			cur = self.con.cursor()
+			find = binascii.hexlify(frame)
+			find = find[2:]
+			#print "|"+find+"|"
+			cur.execute("select response,payload,chksum from request join response on request.response_id = response.id where request.write = ? limit 1",(find,))
+			rows = cur.fetchall()
+			found = 0
+			found = len(rows)
+
+
+			if found == 1:
+				for row in rows:
+					self.ser_com.write(self.ACK)
+					write = binascii.a2b_hex(row[0])
+					self.ser_com.write(write)
+					payload = binascii.a2b_hex(row[1])
+					chksum = binascii.a2b_hex(row[2])
+					self.ser_com.write(payload)
+					self.ser_com.write(chksum)
+					return True
+			else:
+				return False
+					
+
 
 	def check(self,frame):
 		
@@ -83,6 +114,10 @@ class power_meter():
 
 		if self.read_table6(frame):
 			print 'read_table_6 found: ' + binascii.hexlify(frame)
+			return True
+
+		if self.checkdb(frame):
+			print 'found in db: ' + binascii.hexlify(frame)
 			return True
 			
 
@@ -331,6 +366,7 @@ class power_meter():
 
 			return True
 		return False
+
 
 def usage():
 	print "Please enter both pts ports for \n termineter2 and the power meter emulator."
