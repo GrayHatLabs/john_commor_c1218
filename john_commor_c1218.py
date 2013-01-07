@@ -57,8 +57,10 @@ class power_meter():
 		with self.con:
 			cur = self.con.cursor()
 			find = binascii.hexlify(frame)
-			find = find[2:]
-			#print "|"+find+"|"
+			if find[:2] == self.ACK:
+				find = find[2:]	
+
+			print "|"+find+"|"
 			cur.execute("select response,payload,chksum from request join response on request.response_id = response.id where request.write = ? limit 1",(find,))
 			rows = cur.fetchall()
 			found = 0

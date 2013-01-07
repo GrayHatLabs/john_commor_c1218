@@ -168,6 +168,7 @@ class Connection:
 			print 'length --- ' + hexlify(length) + '\n'
 			tmpbuffer += length
 			print 'tmpbuffer + length --- ' + hexlify(tmpbuffer) + '\n'
+			tmpbuffer_log = tmpbuffer
 			length = unpack('>H', length)[0]
 			payload = self.serial_h.read(length)
 			print 'payload   --- ' + hexlify(payload)
@@ -177,12 +178,12 @@ class Connection:
 			print 'chksum ---- ' + hexlify(chksum)
 			
 			self.cur = self.con.cursor()    
-			self.cur.execute('SELECT * FROM response where response = ? and payload = ? and chksum  = ?',(str(hexlify(tmpbuffer)),str(hexlify(payload)),str(hexlify(chksum))))
+			self.cur.execute('SELECT * FROM response where response = ? and payload = ? and chksum  = ?',(str(hexlify(tmpbuffer_log)),str(hexlify(payload)),str(hexlify(chksum))))
 			rows = self.cur.fetchall()
 			test = len(rows)
 			lid = 0
 			if test == 0:
-				self.cur.execute('INSERT INTO response(response,payload,chksum) values (?,?,?)',(str(hexlify(tmpbuffer)),str(hexlify(payload)),str(hexlify(chksum))))
+				self.cur.execute('INSERT INTO response(response,payload,chksum) values (?,?,?)',(str(hexlify(tmpbuffer_log)),str(hexlify(payload)),str(hexlify(chksum))))
 				lid = self.cur.lastrowid
 			else:
 				lid = rows[0][0]
