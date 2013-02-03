@@ -195,7 +195,6 @@ class Connection:
 			self.write_log(',')
 			self.write_log(hexlify(chksum))
 			self.write_log('\n')
-			print 'test'
 			if chksum == crc_str(tmpbuffer):
 				self.serial_h.write(ACK)
 				data = tmpbuffer + chksum

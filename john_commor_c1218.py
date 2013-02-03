@@ -89,10 +89,14 @@ class power_meter():
 		
 		print binascii.hexlify(frame)
 
+		if self.checkdb(frame):
+			print 'found in db: ' + binascii.hexlify(frame)
+			return True
+
 		if self.connect_check(frame):
 			print 'connect_check found : ' + binascii.hexlify(frame)
 			return True
-
+	
 		if self.read_table(frame):
 			print 'read_table_0 found: ' + binascii.hexlify(frame)
 			return True
@@ -120,12 +124,6 @@ class power_meter():
 		if self.read_table6(frame):
 			print 'read_table_6 found: ' + binascii.hexlify(frame)
 			return True
-
-		if self.checkdb(frame):
-			print 'found in db: ' + binascii.hexlify(frame)
-			return True
-			
-
 		
 
 		
