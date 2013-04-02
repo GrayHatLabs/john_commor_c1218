@@ -57,11 +57,12 @@ class power_meter():
 		with self.con:
 			cur = self.con.cursor()
 			find = binascii.hexlify(frame)
-			if find[:2] == self.ACK:
+			if find[:2] == '06':
 				find = find[2:]	
 
-			print "|"+find+"|"
+			#print "|"+find+"|"
 			cur.execute("select response,payload,chksum from request join response on request.response_id = response.id where request.write = ? limit 1",(find,))
+			sql = "select response,payload,chksum from request join response on request.response_id = response.id where request.write = %s limit 1" % (find)
 			rows = cur.fetchall()
 			found = 0
 			found = len(rows)
@@ -74,10 +75,11 @@ class power_meter():
 					self.ser_com.write(write)
 					payload = binascii.a2b_hex(row[1])
 					chksum = binascii.a2b_hex(row[2])
-					print 'write = ' + row[0]
-					print 'payload = ' + row[1]
-					print 'chksum = '+ row[2]
-					self.ser_com.write(payload)
+					test =	binascii.hexlify(row[2])
+					#print 'write = ' + row[0]
+					#print 'payload = ' + row[1]
+					#print 'chksum = '+ row[2]
+					#self.ser_com.write(payload)
 					self.ser_com.write(chksum)
 					return True
 			else:
@@ -87,11 +89,7 @@ class power_meter():
 
 	def check(self,frame):
 		
-		print binascii.hexlify(frame)
-
-		if self.checkdb(frame):
-			print 'found in db: ' + binascii.hexlify(frame)
-			return True
+		#print binascii.hexlify(frame)
 
 		if self.connect_check(frame):
 			print 'connect_check found : ' + binascii.hexlify(frame)
@@ -125,6 +123,10 @@ class power_meter():
 			print 'read_table_6 found: ' + binascii.hexlify(frame)
 			return True
 		
+		if self.checkdb(frame):
+			print 'found in db: ' + binascii.hexlify(frame)
+			return True
+
 
 		
 	def read_table(self,frame):

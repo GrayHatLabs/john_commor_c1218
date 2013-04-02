@@ -1,0 +1,1177 @@
+Script started on Mon 01 Apr 2013 10:23:04 PM MDT
+]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218# ls
+[0m[01;34mbackup[0m           john_commor           [01;32mpts_ports.sh[0m  [01;34mtermineter2[0m
+clear_buffer.py  [01;32mjohn_commor_c1218.py[0m  README.md     [01;34mtermineter2_capture[0m
+db_test.py       powermeter.db         serial        [01;34mtest[0m
+]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218# python hls[Kexitpython termineter2.py exit[Kpython nemus_bot.py startls[Kcd NemusBot/ls[Kcd rev/ls[Kcd nemus_bot/ls[Kcd python/t[K[3Plscd /opt/[3Plear[1Pexitscript -a deviate_testclear[Kpython termineter2.py clear[Kpython termineter2.py clear[Kscript -a deviate_testexit[Kcleard /opt/ls[Kcd ptython/ls[Kcd nemus_bot/ls[Kcd rev/ls[Kcd NemusBot/ls[Kpython nemus_bot.py startexit[Kpython termineter2.py exit[K[2Plspython hls[Kexitpython termineter2.py exit[Kpython nemus_bot.py startls[Kcd NemusBot/ls[Kcd rev/ls[Kcd nemus_bot/ls[Kcd python/[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Mon 01 Apr 2013 10:23:28 PM MDT
+Script started on Mon 01 Apr 2013 10:23:38 PM MDT
+]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218#  python john_commor_c1218.py -e 8 -t 9 [A
+Power Meter Emulator Started 
+
+Use /dev/pts/9 to connect to in termineter2 
+connect_check found : ee0000000001201310
+found
+06
+
+got ack
+06ee
+ee
+got ack
+06ee00
+ee00
+got ack
+06ee0020
+ee0020
+got ack
+06ee002000
+ee002000
+got ack
+06ee00200000
+ee00200000
+got ack
+06ee0020000005
+ee0020000005
+got ack
+06ee002000000561
+ee002000000561
+got ack
+06ee00200000056101
+ee00200000056101
+got ack
+06ee0020000005610100
+ee0020000005610100
+got ack
+06ee002000000561010001
+ee002000000561010001
+got ack
+06ee00200000056101000106
+ee00200000056101000106
+got ack
+06ee0020000005610100010681
+ee0020000005610100010681
+got ack
+connect_check found : 06ee0020000005610100010681d2
+found
+06
+
+got ack
+06ee
+ee
+got ack
+06ee00
+ee00
+got ack
+06ee0000
+ee0000
+got ack
+06ee000000
+ee000000
+got ack
+06ee00000000
+ee00000000
+got ack
+06ee000000000d
+ee000000000d
+got ack
+06ee000000000d50
+ee000000000d50
+got ack
+06ee000000000d5000
+ee000000000d5000
+got ack
+06ee000000000d500000
+ee000000000d500000
+got ack
+06ee000000000d50000030
+ee000000000d50000030
+got ack
+06ee000000000d5000003030
+ee000000000d5000003030
+got ack
+06ee000000000d500000303030
+ee000000000d500000303030
+got ack
+06ee000000000d50000030303030
+ee000000000d50000030303030
+got ack
+06ee000000000d5000003030303020
+ee000000000d5000003030303020
+got ack
+06ee000000000d500000303030302020
+ee000000000d500000303030302020
+got ack
+06ee000000000d50000030303030202020
+ee000000000d50000030303030202020
+got ack
+06ee000000000d5000003030303020202020
+ee000000000d5000003030303020202020
+got ack
+06ee000000000d500000303030302020202020
+ee000000000d500000303030302020202020
+got ack
+06ee000000000d50000030303030202020202020
+ee000000000d50000030303030202020202020
+got ack
+06ee000000000d5000003030303020202020202076
+ee000000000d5000003030303020202020202076
+got ack
+connect_check found : 06ee000000000d500000303030302020202020207635
+found
+06
+
+got ack
+06ee
+ee
+got ack
+06ee00
+ee00
+got ack
+06ee0020
+ee0020
+got ack
+06ee002000
+ee002000
+got ack
+06ee00200000
+ee00200000
+got ack
+06ee0020000003
+ee0020000003
+got ack
+06ee002000000330
+ee002000000330
+got ack
+06ee00200000033000
+ee00200000033000
+got ack
+06ee0020000003300000
+ee0020000003300000
+got ack
+06ee00200000033000005f
+ee00200000033000005f
+got ack
+connect_check found : 06ee00200000033000005f7f
+found
+06
+
+got ack
+06ee
+ee
+got ack
+06ee00
+ee00
+got ack
+06ee0000
+ee0000
+got ack
+06ee000000
+ee000000
+got ack
+06ee00000000
+ee00000000
+got ack
+06ee0000000001
+ee0000000001
+got ack
+06ee000000000121
+ee000000000121
+got ack
+06ee0000000001219a
+ee0000000001219a
+got ack
+connect_check found : 06ee0000000001219a01
+found
+06
+
+got ack
+06ee
+ee
+got ack
+06ee00
+ee00
+got ack
+06ee0020
+ee0020
+got ack
+06ee002000
+ee002000
+got ack
+06ee00200000
+ee00200000
+got ack
+06ee0020000001
+ee0020000001
+got ack
+06ee002000000120
+ee002000000120
+got ack
+06ee00200000012082
+ee00200000012082
+got ack
+read_table_0 found: 06ee0020000001208270
+found
+06
+
+got ack
+06ee
+ee
+got ack
+06ee00
+ee00
+got ack
+06ee0000
+ee0000
+got ack
+06ee000000
+ee000000
+got ack
+06ee00000000
+ee00000000
+got ack
+06ee0000000005
+ee0000000005
+got ack
+06ee000000000561
+ee000000000561
+got ack
+06ee00000000056101
+ee00000000056101
+got ack
+06ee0000000005610100
+ee0000000005610100
+got ack
+06ee000000000561010001
+ee000000000561010001
+got ack
+06ee00000000056101000106
+ee00000000056101000106
+got ack
+06ee00000000056101000106b8
+ee00000000056101000106b8
+got ack
+read_table_0 found: 06ee00000000056101000106b825
+found
+06
+
+got ack
+06ee
+ee
+got ack
+06ee00
+ee00
+got ack
+06ee0020
+ee0020
+got ack
+06ee002000
+ee002000
+got ack
+06ee00200000
+ee00200000
+got ack
+06ee002000000d
+ee002000000d
+got ack
+06ee002000000d50
+ee002000000d50
+got ack
+06ee002000000d5000
+ee002000000d5000
+got ack
+06ee002000000d500001
+ee002000000d500001
+got ack
+06ee002000000d50000130
+ee002000000d50000130
+got ack
+06ee002000000d5000013030
+ee002000000d5000013030
+got ack
+06ee002000000d500001303030
+ee002000000d500001303030
+got ack
+06ee002000000d50000130303030
+ee002000000d50000130303030
+got ack
+06ee002000000d5000013030303020
+ee002000000d5000013030303020
+got ack
+06ee002000000d500001303030302020
+ee002000000d500001303030302020
+got ack
+06ee002000000d50000130303030202020
+ee002000000d50000130303030202020
+got ack
+06ee002000000d5000013030303020202020
+ee002000000d5000013030303020202020
+got ack
+06ee002000000d500001303030302020202020
+ee002000000d500001303030302020202020
+got ack
+06ee002000000d50000130303030202020202020
+ee002000000d50000130303030202020202020
+got ack
+06ee002000000d5000013030303020202020202025
+ee002000000d5000013030303020202020202025
+got ack
+06ee002000000d500001303030302020202020202571
+ee002000000d500001303030302020202020202571
+got ack
+select response,payload,chksum from request join response on request.response_id = response.id where request.write = ee002000000d500001303030302020202020202571 limit 1
+write = ee002000000100
+payload = 00
+chksum = 8051
+found in db: 06ee002000000d500001303030302020202020202571
+found
+^CTraceback (most recent call last):
+  File "john_commor_c1218.py", line 425, in <module>
+    main()
+  File "john_commor_c1218.py", line 412, in main
+    line = pm.ser_com.read(1) 
+  File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 442, in read
+    ready,_,_ = select.select([self.fd],[],[], self._timeout)
+KeyboardInterrupt
+]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218# ls
+[0m[01;34mbackup[0m           john_commor           [01;32mpts_ports.sh[0m  [01;34mtermineter2[0m
+clear_buffer.py  [01;32mjohn_commor_c1218.py[0m  README.md     [01;34mtermineter2_capture[0m
+db_test.py       powermeter.db         serial        [01;34mtest[0m
+]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218# vim ho[K[Kjohn_commor
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"john_commor" [noeol] 286L, 5749C[>c[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m  1 [mScript started on Mon 01 Apr 2013 10:23:04 PM MDT
+[33m  2 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[4;1H[33m    [mcommor_c1218# ls[34m^M[m
+[33m  3 [m[34m^[[m[0m[34m^[[m[01;34mbackup[34m^[[m[0m[10C john_commor[10C [34m^[[m[01;32mpts_portss[6;1H[33m    [m.sh[34m^[[m[0m  [34m^[[m[01;34mtermineter2[34m^[[m[0m[34m^M[m
+[33m  4 [mclear_buffer.py  [34m^[[m[01;32mjohn_commor_c1218.py[34m^[[m[0m  README.md     [34m^[[m[01;34mm[8;1H[33m    [mtermineter2_capture[34m^[[m[0m[34m^M[m
+[33m  5 [mdb_test.py       powermeter.db[8C serial[7C [34m^[[m[01;34mtest[34m^[[m[0m[34m^M[m
+[33m  6 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[11;1H[33m    [mcommor_c1218# pyt[34m^G[mhon h[34m^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mexit[34m^H^H^H^H[mpython terminee[12;1H[33m    [mter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mpython nn[13;1H[33m    [memus_bot.py start[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^^[m[14;1H[33m    [m[34mH[mcd NemusBot/[34m^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^HH[m[15;1H[33m    [m[34m^H[mcd nemus_bot/[34m^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd python/[34m^H^H^H^H^H^H[mt[34m^[[[m[16;1H[33m    [m[K[34m^H^H^H^H^H^[[m[3Pls[34m^H^H[mcd /opt/[34m^H^H^H^H^H^H^H^[[m[3Plear[34m^H^H^H^H^H^[[m[1Pexit[34m^H^^[m[17;1H[33m    [m[34mH^H^H[mscript -a deviate_test[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mclearr[18;1H[33m    [m[34m^[[m[K[34m^H^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^HH[m[19;1H[33m    [m[34m^H^H[mclear[34m^[[m[K[34m^H^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^^[m[20;1H[33m    [m[34mH^H^H^H^H^H^H[mclear[34m^[[m[K[34m^H^H^H^H^H[mscript -a deviate_test[34m^H^H^H^H^H^H^H^H^H^H^HH[m[21;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mclear[34m^H^H^H^H[md /opt/[34m^H^H^H^H^H^H^H^H[mlss[22;1H[33m    [m[34m^[[m[K[34m^H^H[mcd pt[34m^H[mython/[34m^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd nemus_bot/[34m^H^H^H^H^H^HH[m[23;1H[33m    [m[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd NemusBot/[34m^H^H^H^H^[m[10;1H[1m[34m@                                                                               [11;1H@                                                                               [12;1H@                                                                               [13;1H@                                                                               [14;1H@                                                                               [15;1H@                                                                               [16;1H@                                                                               [17;1H@                                                                               [18;1H@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [m[24;63H1,1[11CTop[2;5H[?12l[?25h[?25l[24;63H2[3;5H[?12l[?25h[?25l[24;63H3[5;5H[?12l[?25h[?25l[24;63H4[7;5H[?12l[?25h[?25l[24;63H5[9;5H[?12l[?25h[?25l[2;23r[2;1H[8M[1;24r[2;1H[33m  6 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[3;1H[33m    [mcommor_c1218# pyt[34m^G[mhon h[34m^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mexit[34m^H^H^H^H[mpython terminee[4;1H[33m    [mter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mpython nn[5;1H[33m    [memus_bot.py start[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^^[m[6;1H[33m    [m[34mH[mcd NemusBot/[34m^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^HH[m[7;1H[33m    [m[34m^H[mcd nemus_bot/[34m^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd python/[34m^H^H^H^H^H^H[mt[34m^[[[m[8;1H[33m    [m[K[34m^H^H^H^H^H^[[m[3Pls[34m^H^H[mcd /opt/[34m^H^H^H^H^H^H^H^[[m[3Plear[34m^H^H^H^H^H^[[m[1Pexit[34m^H^^[m[9;1H[33m    [m[34mH^H^H[mscript -a deviate_test[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mclearr[10;1H[33m    [m[34m^[[m[K[34m^H^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^HH[m[11;1H[33m    [m[34m^H^H[mclear[34m^[[m[K[34m^H^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^^[m[12;1H[33m    [m[34mH^H^H^H^H^H^H[mclear[34m^[[m[K[34m^H^H^H^H^H[mscript -a deviate_test[34m^H^H^H^H^H^H^H^H^H^H^HH[m[13;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mclear[34m^H^H^H^H[md /opt/[34m^H^H^H^H^H^H^H^H[mlss[14;1H[33m    [m[34m^[[m[K[34m^H^H[mcd pt[34m^H[mython/[34m^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd nemus_bot/[34m^H^H^H^H^H^HH[m[15;1H[33m    [m[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd NemusBot/[34m^H^H^H^H^^[m[16;1H[33m    [m[34mH^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mpython nemus_bot.py start[34m^H^H^H^H^H^H^H^H^H^H^H^H^HH[m[17;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^HH[m[18;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H^[[m[2Pls[34m^H^H[mpython h[34m^G^G^G^G^G^^[m[19;1H[33m    [m[34mG^G^G^G^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mexit[34m^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^^[m[20;1H[33m    [m[34mH^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mpython nemus_bot.py startt[21;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd NemusBot/[34m^H^HH[m[22;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd nemus_bot/[34m^HH[m[23;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd python/[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H[m[24;1H[K[24;63H6,1[12C1%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m  7 [mexit[34m^M[m
+[33m  8 
+  9 [mScript done on Mon 01 Apr 2013 10:23:28 PM MDT
+[33m 10 [mScript started on Mon 01 Apr 2013 10:23:38 PM MDT
+[33m 11 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[7;1H[33m    [mcommor_c1218#  python john_commor_c1218.py -e 8 -t 9 [34m^M^[[m[A[34m^M[m
+[33m 12 [mPower Meter Emulator Started [34m^M[m
+[33m 13 [m[34m^M[m
+[33m 14 [mUse /dev/pts/9 to connect to in termineter2 [34m^M[m
+[33m 15 [mconnect_check found : ee0000000001201310[34m^M[m
+[33m 16 [mfound[34m^M[m
+[33m 17 [m06[34m^M[m
+[33m 18 [m[34m^M[m
+[33m 19 [mgot ack[34m^M[m
+[33m 20 [m06ee[34m^M[m
+[33m 21 [mee[34m^M[m
+[33m 22 [mgot ack[34m^M[m
+[33m 23 [m06ee00[34m^M[m
+[33m 24 [mee00[34m^M[m
+[33m 25 [mgot ack[34m^M[m
+[33m 26 [m06ee0020[34m^M[m
+[33m 27 [mee0020[34m^M[m[24;63H7,1[12C2%[2;5H[?12l[?25h[?25l[24;63H8,0-1[3;5H[?12l[?25h[?25l[24;63H9,1  [4;5H[?12l[?25h[?25l[24;63H10,1[5;5H[?12l[?25h[?25l[24;64H1[6;5H[?12l[?25h[?25l[24;64H2[8;5H[?12l[?25h[?25l[24;64H3[9;5H[?12l[?25h[?25l[24;64H4[10;5H[?12l[?25h[?25l[24;64H5[11;5H[?12l[?25h[?25l[24;64H6[12;5H[?12l[?25h[?25l[24;64H7[13;5H[?12l[?25h[?25l[24;64H8[14;5H[?12l[?25h[?25l[24;64H9[15;5H[?12l[?25h[?25l[24;63H20[16;5H[?12l[?25h[?25l[24;64H1[17;5H[?12l[?25h[?25l[24;64H2[18;5H[?12l[?25h[?25l[24;64H3[19;5H[?12l[?25h[?25l[24;64H4[20;5H[?12l[?25h[?25l[24;64H5[21;5H[?12l[?25h[?25l[24;64H6[22;5H[?12l[?25h[?25l[24;64H7[23;5H[?12l[?25h[?25l[2;23r[23;1H
+[1;24r[23;1H[33m 28 [mgot ack[34m^M[m[24;63H[K[24;63H28,1[11C2%[23;5H[?12l[?25h[?25l[2;23r[23;1H
+[1;24r[23;1H[33m 29 [m06ee002000[34m^M[m[24;63H[K[24;63H29,1[11C3%[23;5H[?12l[?25h[?25l[2;23r[23;1H
+[1;24r[23;1H[33m 30 [mee002000[34m^M[m[24;63H[K[24;63H30,1[11C3%[23;5H[?12l[?25h[?25l[2;23r[23;1H
+[1;24r[23;1H[33m 31 [mgot ack[34m^M[m[24;63H[K[24;63H31,1[11C3%[23;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m 30 [mee002000[34m^M[m
+[33m 31 [mgot ack[34m^M[m
+[33m 32 [m06ee00200000[34m^M[m
+[33m 33 [mee00200000[34m^M[m
+[33m 34 [mgot ack[34m^M[m
+[33m 35 [m06ee0020000005[34m^M[m
+[33m 36 [mee0020000005[34m^M[m
+[33m 37 [mgot ack[34m^M[m
+[33m 38 [m06ee002000000561[34m^M[m
+[33m 39 [mee002000000561[34m^M[m
+[33m 40 [mgot ack[34m^M[m
+[33m 41 [m06ee00200000056101[34m^M[m
+[33m 42 [mee00200000056101[34m^M[m
+[33m 43 [mgot ack[34m^M[m
+[33m 44 [m06ee0020000005610100[34m^M[m
+[33m 45 [mee0020000005610100[34m^M[m
+[33m 46 [mgot ack[34m^M[m
+[33m 47 [m06ee002000000561010001[34m^M[m
+[33m 48 [mee002000000561010001[34m^M[m
+[33m 49 [mgot ack[34m^M[m
+[33m 50 [m06ee00200000056101000106[34m^M[m
+[33m 51 [mee00200000056101000106[34m^M[m[24;63H30,1[10C10%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m 50 [m06ee00200000056101000106[34m^M[m
+[33m 51 [mee00200000056101000106[34m^M[m
+[33m 52 [mgot ack[34m^M[m
+[33m 53 [m06ee0020000005610100010681[34m^M[m
+[33m 54 [mee0020000005610100010681[34m^M[m
+[33m 55 [mgot ack[34m^M[m
+[33m 56 [mconnect_check found : 06ee0020000005610100010681d2[34m^M[m
+[33m 57 [mfound[34m^M[m
+[33m 58 [m06[34m^M[m
+[33m 59 [m[34m^M[m
+[33m 60 [mgot ack[34m^M[m
+[33m 61 [m06ee[34m^M[m
+[33m 62 [mee[34m^M[m
+[33m 63 [mgot ack[34m^M[m
+[33m 64 [m06ee00[34m^M[m
+[33m 65 [mee00[34m^M[m
+[33m 66 [mgot ack[34m^M[m
+[33m 67 [m06ee0000[34m^M[m
+[33m 68 [mee0000[34m^M[m
+[33m 69 [mgot ack[34m^M[m
+[33m 70 [m06ee000000[34m^M[m
+[33m 71 [mee000000[34m^M[m[24;63H50,1[10C18%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m 70 [m06ee000000[34m^M[m
+[33m 71 [mee000000[34m^M[m
+[33m 72 [mgot ack[34m^M[m
+[33m 73 [m06ee00000000[34m^M[m
+[33m 74 [mee00000000[34m^M[m
+[33m 75 [mgot ack[34m^M[m
+[33m 76 [m06ee000000000d[34m^M[m
+[33m 77 [mee000000000d[34m^M[m
+[33m 78 [mgot ack[34m^M[m
+[33m 79 [m06ee000000000d50[34m^M[m
+[33m 80 [mee000000000d50[34m^M[m
+[33m 81 [mgot ack[34m^M[m
+[33m 82 [m06ee000000000d5000[34m^M[m
+[33m 83 [mee000000000d5000[34m^M[m
+[33m 84 [mgot ack[34m^M[m
+[33m 85 [m06ee000000000d500000[34m^M[m
+[33m 86 [mee000000000d500000[34m^M[m
+[33m 87 [mgot ack[34m^M[m
+[33m 88 [m06ee000000000d50000030[34m^M[m
+[33m 89 [mee000000000d50000030[34m^M[m
+[33m 90 [mgot ack[34m^M[m
+[33m 91 [m06ee000000000d5000003030[34m^M[m[24;63H70,1[10C26%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m 90 [mgot ack[34m^M[m
+[33m 91 [m06ee000000000d5000003030[34m^M[m
+[33m 92 [mee000000000d5000003030[34m^M[m
+[33m 93 [mgot ack[34m^M[m
+[33m 94 [m06ee000000000d500000303030[34m^M[m
+[33m 95 [mee000000000d500000303030[34m^M[m
+[33m 96 [mgot ack[34m^M[m
+[33m 97 [m06ee000000000d50000030303030[34m^M[m
+[33m 98 [mee000000000d50000030303030[34m^M[m
+[33m 99 [mgot ack[34m^M[m
+[33m100 [m06ee000000000d5000003030303020[34m^M[m
+[33m101 [mee000000000d5000003030303020[34m^M[m
+[33m102 [mgot ack[34m^M[m
+[33m103 [m06ee000000000d500000303030302020[34m^M[m
+[33m104 [mee000000000d500000303030302020[34m^M[m
+[33m105 [mgot ack[34m^M[m
+[33m106 [m06ee000000000d50000030303030202020[34m^M[m
+[33m107 [mee000000000d50000030303030202020[34m^M[m
+[33m108 [mgot ack[34m^M[m
+[33m109 [m06ee000000000d5000003030303020202020[34m^M[m
+[33m110 [mee000000000d5000003030303020202020[34m^M[m
+[33m111 [mgot ack[34m^M[m[24;63H90,1[10C33%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m110 [mee000000000d5000003030303020202020[34m^M[m
+[33m111 [mgot ack[34m^M[m
+[33m112 [m06ee000000000d500000303030302020202020[34m^M[m
+[33m113 [mee000000000d500000303030302020202020[34m^M[m
+[33m114 [mgot ack[34m^M[m
+[33m115 [m06ee000000000d50000030303030202020202020[34m^M[m
+[33m116 [mee000000000d50000030303030202020202020[34m^M[m
+[33m117 [mgot ack[34m^M[m
+[33m118 [m06ee000000000d5000003030303020202020202076[34m^M[m
+[33m119 [mee000000000d5000003030303020202020202076[34m^M[m
+[33m120 [mgot ack[34m^M[m
+[33m121 [mconnect_check found : 06ee000000000d500000303030302020202020207635[34m^M[m
+[33m122 [mfound[34m^M[m
+[33m123 [m06[34m^M[m
+[33m124 [m[34m^M[m
+[33m125 [mgot ack[34m^M[m
+[33m126 [m06ee[34m^M[m
+[33m127 [mee[34m^M[m
+[33m128 [mgot ack[34m^M[m
+[33m129 [m06ee00[34m^M[m
+[33m130 [mee00[34m^M[m
+[33m131 [mgot ack[34m^M[m[24;63H110,1[9C41%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m130 [mee00[34m^M[m
+[33m131 [mgot ack[34m^M[m
+[33m132 [m06ee0020[34m^M[m
+[33m133 [mee0020[34m^M[m
+[33m134 [mgot ack[34m^M[m
+[33m135 [m06ee002000[34m^M[m
+[33m136 [mee002000[34m^M[m
+[33m137 [mgot ack[34m^M[m
+[33m138 [m06ee00200000[34m^M[m
+[33m139 [mee00200000[34m^M[m
+[33m140 [mgot ack[34m^M[m
+[33m141 [m06ee0020000003[34m^M[m
+[33m142 [mee0020000003[34m^M[m
+[33m143 [mgot ack[34m^M[m
+[33m144 [m06ee002000000330[34m^M[m
+[33m145 [mee002000000330[34m^M[m
+[33m146 [mgot ack[34m^M[m
+[33m147 [m06ee00200000033000[34m^M[m
+[33m148 [mee00200000033000[34m^M[m
+[33m149 [mgot ack[34m^M[m
+[33m150 [m06ee0020000003300000[34m^M[m
+[33m151 [mee0020000003300000[34m^M[m[24;63H130,1[9C48%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m150 [m06ee0020000003300000[34m^M[m
+[33m151 [mee0020000003300000[34m^M[m
+[33m152 [mgot ack[34m^M[m
+[33m153 [m06ee00200000033000005f[34m^M[m
+[33m154 [mee00200000033000005f[34m^M[m
+[33m155 [mgot ack[34m^M[m
+[33m156 [mconnect_check found : 06ee00200000033000005f7f[34m^M[m
+[33m157 [mfound[34m^M[m
+[33m158 [m06[34m^M[m
+[33m159 [m[34m^M[m
+[33m160 [mgot ack[34m^M[m
+[33m161 [m06ee[34m^M[m
+[33m162 [mee[34m^M[m
+[33m163 [mgot ack[34m^M[m
+[33m164 [m06ee00[34m^M[m
+[33m165 [mee00[34m^M[m
+[33m166 [mgot ack[34m^M[m
+[33m167 [m06ee0000[34m^M[m
+[33m168 [mee0000[34m^M[m
+[33m169 [mgot ack[34m^M[m
+[33m170 [m06ee000000[34m^M[m
+[33m171 [mee000000[34m^M[m[24;63H150,1[9C56%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m170 [m06ee000000[34m^M[m
+[33m171 [mee000000[34m^M[m
+[33m172 [mgot ack[34m^M[m
+[33m173 [m06ee00000000[34m^M[m
+[33m174 [mee00000000[34m^M[m
+[33m175 [mgot ack[34m^M[m
+[33m176 [m06ee0000000001[34m^M[m
+[33m177 [mee0000000001[34m^M[m
+[33m178 [mgot ack[34m^M[m
+[33m179 [m06ee000000000121[34m^M[m
+[33m180 [mee000000000121[34m^M[m
+[33m181 [mgot ack[34m^M[m
+[33m182 [m06ee0000000001219a[34m^M[m
+[33m183 [mee0000000001219a[34m^M[m
+[33m184 [mgot ack[34m^M[m
+[33m185 [mconnect_check found : 06ee0000000001219a01[34m^M[m
+[33m186 [mfound[34m^M[m
+[33m187 [m06[34m^M[m
+[33m188 [m[34m^M[m
+[33m189 [mgot ack[34m^M[m
+[33m190 [m06ee[34m^M[m
+[33m191 [mee[34m^M[m[24;63H170,1[9C64%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m190 [m06ee[34m^M[m
+[33m191 [mee[34m^M[m
+[33m192 [mgot ack[34m^M[m
+[33m193 [m06ee00[34m^M[m
+[33m194 [mee00[34m^M[m
+[33m195 [mgot ack[34m^M[m
+[33m196 [m06ee0020[34m^M[m
+[33m197 [mee0020[34m^M[m
+[33m198 [mgot ack[34m^M[m
+[33m199 [m06ee002000[34m^M[m
+[33m200 [mee002000[34m^M[m
+[33m201 [mgot ack[34m^M[m
+[33m202 [m06ee00200000[34m^M[m
+[33m203 [mee00200000[34m^M[m
+[33m204 [mgot ack[34m^M[m
+[33m205 [m06ee0020000001[34m^M[m
+[33m206 [mee0020000001[34m^M[m
+[33m207 [mgot ack[34m^M[m
+[33m208 [m06ee002000000120[34m^M[m
+[33m209 [mee002000000120[34m^M[m
+[33m210 [mgot ack[34m^M[m
+[33m211 [m06ee00200000012082[34m^M[m[24;63H190,1[9C71%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m210 [mgot ack[34m^M[m
+[33m211 [m06ee00200000012082[34m^M[m
+[33m212 [mee00200000012082[34m^M[m
+[33m213 [mgot ack[34m^M[m
+[33m214 [mread_table_0 found: 06ee0020000001208270[34m^M[m
+[33m215 [mfound[34m^M[m
+[33m216 [m06[34m^M[m
+[33m217 [m[34m^M[m
+[33m218 [mgot ack[34m^M[m
+[33m219 [m06ee[34m^M[m
+[33m220 [mee[34m^M[m
+[33m221 [mgot ack[34m^M[m
+[33m222 [m06ee00[34m^M[m
+[33m223 [mee00[34m^M[m
+[33m224 [mgot ack[34m^M[m
+[33m225 [m06ee0000[34m^M[m
+[33m226 [mee0000[34m^M[m
+[33m227 [mgot ack[34m^M[m
+[33m228 [m06ee000000[34m^M[m
+[33m229 [mee000000[34m^M[m
+[33m230 [mgot ack[34m^M[m
+[33m231 [m06ee00000000[34m^M[m[24;63H210,1[9C79%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m230 [mgot ack[34m^M[m
+[33m231 [m06ee00000000[34m^M[m
+[33m232 [mee00000000[34m^M[m
+[33m233 [mgot ack[34m^M[m
+[33m234 [m06ee0000000005[34m^M[m
+[33m235 [mee0000000005[34m^M[m
+[33m236 [mgot ack[34m^M[m
+[33m237 [m06ee000000000561[34m^M[m
+[33m238 [mee000000000561[34m^M[m
+[33m239 [mgot ack[34m^M[m
+[33m240 [m06ee00000000056101[34m^M[m
+[33m241 [mee00000000056101[34m^M[m
+[33m242 [mgot ack[34m^M[m
+[33m243 [m06ee0000000005610100[34m^M[m
+[33m244 [mee0000000005610100[34m^M[m
+[33m245 [mgot ack[34m^M[m
+[33m246 [m06ee000000000561010001[34m^M[m
+[33m247 [mee000000000561010001[34m^M[m
+[33m248 [mgot ack[34m^M[m
+[33m249 [m06ee00000000056101000106[34m^M[m
+[33m250 [mee00000000056101000106[34m^M[m
+[33m251 [mgot ack[34m^M[m[24;63H230,1[9C86%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m250 [mee00000000056101000106[34m^M[m
+[33m251 [mgot ack[34m^M[m
+[33m252 [m06ee00000000056101000106b8[34m^M[m
+[33m253 [mee00000000056101000106b8[34m^M[m
+[33m254 [mgot ack[34m^M[m
+[33m255 [mread_table_0 found: 06ee00000000056101000106b825[34m^M[m
+[33m256 [mfound[34m^M[m
+[33m257 [m06[34m^M[m
+[33m258 [m[34m^M[m
+[33m259 [mgot ack[34m^M[m
+[33m260 [m06ee[34m^M[m
+[33m261 [mee[34m^M[m
+[33m262 [mgot ack[34m^M[m
+[33m263 [m06ee00[34m^M[m
+[33m264 [mee00[34m^M[m
+[33m265 [mgot ack[34m^M[m
+[33m266 [m06ee0020[34m^M[m
+[33m267 [mee0020[34m^M[m
+[33m268 [mgot ack[34m^M[m
+[33m269 [m06ee002000[34m^M[m
+[33m270 [mee002000[34m^M[m
+[33m271 [mgot ack[34m^M[m[24;63H250,1[9C94%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m270 [mee002000[34m^M[m
+[33m271 [mgot ack[34m^M[m
+[33m272 [m06ee00200000[34m^M[m
+[33m273 [mee00200000[34m^M[m
+[33m274 [mgot ack[34m^M[m
+[33m275 [m06ee002000000d[34m^M[m
+[33m276 [mee002000000d[34m^M[m
+[33m277 [mgot ack[34m^M[m
+[33m278 [m06ee002000000d50[34m^M[m
+[33m279 [mee002000000d50[34m^M[m
+[33m280 [mgot ack[34m^M[m
+[33m281 [m06ee002000000d5000[34m^M[m
+[33m282 [mee002000000d5000[34m^M[m
+[33m283 [mgot ack[34m^M[m
+[33m284 [m06ee002000000d500001[34m^M[m
+[33m285 [mee002000000d500001[34m^M[m
+[33m286 [mgot ac
+[1m[34m~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H270,1[9CBot[2;5H[?12l[?25h[?25l[2;23r[2;1H[16M[1;24r[8;1H[1m[34m~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H[K[24;63H286,1[9CBot[2;5H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[24;63H[K[24;1H/[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25h[?25l[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: select[m[24;32H[K[24;63H286,1[9CBot[2;5H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218# cea[Kk[K[Klear
+[H[2J]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218# clearvim john_commor
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"john_commor" [noeol] 640L, 30325C[>c[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m  1 [mScript started on Mon 01 Apr 2013 10:23:04 PM MDT
+[33m  2 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[4;1H[33m    [mcommor_c1218# ls[34m^M[m
+[33m  3 [m[34m^[[m[0m[34m^[[m[01;34mbackup[34m^[[m[0m[10C john_commor[10C [34m^[[m[01;32mpts_portss[6;1H[33m    [m.sh[34m^[[m[0m  [34m^[[m[01;34mtermineter2[34m^[[m[0m[34m^M[m
+[33m  4 [mclear_buffer.py  [34m^[[m[01;32mjohn_commor_c1218.py[34m^[[m[0m  README.md     [34m^[[m[01;34mm[8;1H[33m    [mtermineter2_capture[34m^[[m[0m[34m^M[m
+[33m  5 [mdb_test.py       powermeter.db[8C serial[7C [34m^[[m[01;34mtest[34m^[[m[0m[34m^M[m
+[33m  6 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[11;1H[33m    [mcommor_c1218# pyt[34m^G[mhon h[34m^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mexit[34m^H^H^H^H[mpython terminee[12;1H[33m    [mter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mpython nn[13;1H[33m    [memus_bot.py start[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^^[m[14;1H[33m    [m[34mH[mcd NemusBot/[34m^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^HH[m[15;1H[33m    [m[34m^H[mcd nemus_bot/[34m^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd python/[34m^H^H^H^H^H^H[mt[34m^[[[m[16;1H[33m    [m[K[34m^H^H^H^H^H^[[m[3Pls[34m^H^H[mcd /opt/[34m^H^H^H^H^H^H^H^[[m[3Plear[34m^H^H^H^H^H^[[m[1Pexit[34m^H^^[m[17;1H[33m    [m[34mH^H^H[mscript -a deviate_test[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mclearr[18;1H[33m    [m[34m^[[m[K[34m^H^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^HH[m[19;1H[33m    [m[34m^H^H[mclear[34m^[[m[K[34m^H^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^^[m[20;1H[33m    [m[34mH^H^H^H^H^H^H[mclear[34m^[[m[K[34m^H^H^H^H^H[mscript -a deviate_test[34m^H^H^H^H^H^H^H^H^H^H^HH[m[21;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mclear[34m^H^H^H^H[md /opt/[34m^H^H^H^H^H^H^H^H[mlss[22;1H[33m    [m[34m^[[m[K[34m^H^H[mcd pt[34m^H[mython/[34m^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd nemus_bot/[34m^H^H^H^H^H^HH[m[23;1H[33m    [m[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd NemusBot/[34m^H^H^H^H^[m[10;1H[1m[34m@                                                                               [11;1H@                                                                               [12;1H@                                                                               [13;1H@                                                                               [14;1H@                                                                               [15;1H@                                                                               [16;1H@                                                                               [17;1H@                                                                               [18;1H@                                                                               [19;1H@                                                                               [20;1H@                                                                               [21;1H@                                                                               [22;1H@                                                                               [23;1H@                                                                               [m[24;63H1,1[11CTop[2;5H[?12l[?25h[?25l[24;63H2[3;5H[?12l[?25h[?25l[24;63H3[5;5H[?12l[?25h[?25l[24;63H4[7;5H[?12l[?25h[?25l[24;63H5[9;5H[?12l[?25h[?25l[2;23r[2;1H[8M[1;24r[2;1H[33m  6 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[3;1H[33m    [mcommor_c1218# pyt[34m^G[mhon h[34m^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mexit[34m^H^H^H^H[mpython terminee[4;1H[33m    [mter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mpython nn[5;1H[33m    [memus_bot.py start[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^^[m[6;1H[33m    [m[34mH[mcd NemusBot/[34m^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^HH[m[7;1H[33m    [m[34m^H[mcd nemus_bot/[34m^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd python/[34m^H^H^H^H^H^H[mt[34m^[[[m[8;1H[33m    [m[K[34m^H^H^H^H^H^[[m[3Pls[34m^H^H[mcd /opt/[34m^H^H^H^H^H^H^H^[[m[3Plear[34m^H^H^H^H^H^[[m[1Pexit[34m^H^^[m[9;1H[33m    [m[34mH^H^H[mscript -a deviate_test[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mclearr[10;1H[33m    [m[34m^[[m[K[34m^H^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^HH[m[11;1H[33m    [m[34m^H^H[mclear[34m^[[m[K[34m^H^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^^[m[12;1H[33m    [m[34mH^H^H^H^H^H^H[mclear[34m^[[m[K[34m^H^H^H^H^H[mscript -a deviate_test[34m^H^H^H^H^H^H^H^H^H^H^HH[m[13;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mclear[34m^H^H^H^H[md /opt/[34m^H^H^H^H^H^H^H^H[mlss[14;1H[33m    [m[34m^[[m[K[34m^H^H[mcd pt[34m^H[mython/[34m^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd nemus_bot/[34m^H^H^H^H^H^HH[m[15;1H[33m    [m[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd NemusBot/[34m^H^H^H^H^^[m[16;1H[33m    [m[34mH^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mpython nemus_bot.py start[34m^H^H^H^H^H^H^H^H^H^H^H^H^HH[m[17;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^H^H^HH[m[18;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H^[[m[2Pls[34m^H^H[mpython h[34m^G^G^G^G^G^^[m[19;1H[33m    [m[34mG^G^G^G^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mexit[34m^H^H^H^H[mpython termineter2.py [34m^H^H^H^H^^[m[20;1H[33m    [m[34mH^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mexit[34m^[[m[K[34m^H^H^H^H[mpython nemus_bot.py startt[21;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd NemusBot/[34m^H^HH[m[22;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd rev/[34m^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd nemus_bot/[34m^HH[m[23;1H[33m    [m[34m^H^H^H^H^H^H^H^H^H^H^H^H[mls[34m^[[m[K[34m^H^H[mcd python/[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H^[[m[K[34m^H[m[24;1H[K[24;63H6,1[12C0%[2;5H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m  7 [mexit[34m^M[m
+[33m  8 
+  9 [mScript done on Mon 01 Apr 2013 10:23:28 PM MDT
+[33m 10 [mScript started on Mon 01 Apr 2013 10:23:38 PM MDT
+[33m 11 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[7;1H[33m    [mcommor_c1218#  python john_commor_c1218.py -e 8 -t 9 [34m^M^[[m[A[34m^M[m
+[33m 12 [mPower Meter Emulator Started [34m^M[m
+[33m 13 [m[34m^M[m
+[33m 14 [mUse /dev/pts/9 to connect to in termineter2 [34m^M[m
+[33m 15 [mconnect_check found : ee0000000001201310[34m^M[m
+[33m 16 [mfound[34m^M[m
+[33m 17 [m06[34m^M[m
+[33m 18 [m[34m^M[m
+[33m 19 [mgot ack[34m^M[m
+[33m 20 [m06ee[34m^M[m
+[33m 21 [mee[34m^M[m
+[33m 22 [mgot ack[34m^M[m
+[33m 23 [m06ee00[34m^M[m
+[33m 24 [mee00[34m^M[m
+[33m 25 [mgot ack[34m^M[m
+[33m 26 [m06ee0020[34m^M[m
+[33m 27 [mee0020[34m^M[m[24;63H7,1[12C0%[2;5H[?12l[?25h[?25l[24;63H8,0-1[3;5H[?12l[?25h[?25l[24;63H9,1  [4;5H[?12l[?25h[?25l[24;63H10,1[5;5H[?12l[?25h[?25l[24;64H1[6;5H[?12l[?25h[?25l[24;64H2[8;5H[?12l[?25h[?25l[24;64H3[9;5H[?12l[?25h[?25l[24;64H4[10;5H[?12l[?25h[?25l[24;64H5[11;5H[?12l[?25h[?25l[24;64H6[12;5H[?12l[?25h[?25l[24;63H[K[24;1H/[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [m[2;1H[33m314 [m06ee002000000d50000130303030202020202020[34m^M[m
+[33m315 [mee002000000d50000130303030202020202020[34m^M[m
+[33m316 [mgot ack[34m^M[m
+[33m317 [m06ee002000000d5000013030303020202020202025[34m^M[m
+[33m318 [mee002000000d5000013030303020202020202025[34m^M[m
+[33m319 [mgot ack[34m^M[m
+[33m320 [m06ee002000000d500001303030302020202020202571[34m^M[m
+[33m321 [mee002000000d500001303030302020202020202571[34m^M[m
+[33m322 [mgot ack[34m^M[m
+[33m323 [mselect response,payload,chksum from request join response on request.responss[12;1H[33m    [me_id = response.id where request.write = ee002000000d500001303030302020202022[13;1H[33m    [m0202571 limit 1[34m^M[m
+[33m324 [mwrite = ee002000000100[34m^M[m
+[33m325 [mpayload = 00[34m^M[m
+[33m326 [mchksum = 8051[34m^M[m
+[33m327 [mfound in db: 06ee002000000d500001303030302020202020202571[34m^M[m
+[33m328 [mfound[34m^M[m
+[33m329 [m^CTraceback (most recent call last):[34m^M[m
+[33m330 [m  File "john_commor_c1218.py", line 425, in <module>[34m^M[m
+[33m331 [m    main()[34m^M[m
+[33m332 [m  File "john_commor_c1218.py", line 412, in main[34m^M[m
+[33m333 [m    line = pm.ser_com.read(1) [34m^M[m[24;63H323,1[9C50%[11;5H[?12l[?25h[?25l[24;1H/select[24;63H[K[24;1H[2;23r[2;1H[3M[1;24r[21;1H[33m334 [m  File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 442, ii[22;1H[33m    [mn read[34m^M[m
+[33m335 [m    ready,_,_ = select.select([self.fd],[],[], self._timeout)[34m^M[m[24;1H[K[24;63H335,17[8C50%[23;21H[?12l[?25h[?25l
+/select[24;63H[K[24;1H[62C335,24[8C50%[23;28H[?12l[?25h[?25l[24;63H[K[24;1H[31msearch hit BOTTOM, continuing at TOP[m[26C323,1[9C50%[24;63H[K[24;63H323,1[9C50%[8;5H[?12l[?25h[?25l[24;1H/select[24;8H[K[24;1H[62C335,17[8C50%[23;21H[?12l[?25h[?25l[24;63H[K[24;1H[62C335,24[8C50%[23;28H[?12l[?25h[?25l[24;63H[K[24;1H[31msearch hit BOTTOM, continuing at TOP[m[26C323,1[9C50%[24;63H[K[24;63H323,1[9C50%[8;5H[?12l[?25h[?25l[24;65H2[7;5H[?12l[?25h[?25l[24;65H1[6;5H[?12l[?25h[?25l[24;65H0[5;5H[?12l[?25h[27m[m[H[2J[1;1H[1m john_commor [m[7m                                                                   [?25l[m[2;1H[33m314 [m06ee002000000d50000130303030202020202020[34m^M[m
+[33m315 [mee002000000d50000130303030202020202020[34m^M[m
+[33m316 [mgot ack[34m^M[m
+[33m317 [m06ee002000000d5000013030303020202020202025[34m^M[m
+[33m318 [mee002000000d5000013030303020202020202025[34m^M[m
+[33m319 [mgot ack[34m^M[m
+[33m320 [m06ee002000000d500001303030302020202020202571[34m^M[m
+[33m321 [mee002000000d500001303030302020202020202571[34m^M[m
+[33m322 [mgot ack[34m^M[m
+[33m323 [mselect response,payload,chksum from request join response on request.responss[12;1H[33m    [me_id = response.id where request.write = ee002000000d500001303030302020202022[13;1H[33m    [m0202571 limit 1[34m^M[m
+[33m324 [mwrite = ee002000000100[34m^M[m
+[33m325 [mpayload = 00[34m^M[m
+[33m326 [mchksum = 8051[34m^M[m
+[33m327 [mfound in db: 06ee002000000d500001303030302020202020202571[34m^M[m
+[33m328 [mfound[34m^M[m
+[33m329 [m^CTraceback (most recent call last):[34m^M[m
+[33m330 [m  File "john_commor_c1218.py", line 425, in <module>[34m^M[m
+[33m331 [m    main()[34m^M[m
+[33m332 [m  File "john_commor_c1218.py", line 412, in main[34m^M[m
+[33m333 [m    line = pm.ser_com.read(1) [34m^M[m
+[33m334 [m  File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 442, ii[25;1H[33m    [mn read[34m^M[m
+[33m335 [m    ready,_,_ = select.select([self.fd],[],[], self._timeout)[34m^M[m
+[33m336 [mKeyboardInterrupt[34m^M[m
+[33m337 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[29;1H[33m    [mcommor_c1218# ls[34m^M[m
+[33m338 [m[34m^[[m[0m[34m^[[m[01;34mbackup[34m^[[m[0m[10C john_commor[10C [34m^[[m[01;32mpts_portss[31;1H[33m    [m.sh[34m^[[m[0m  [34m^[[m[01;34mtermineter2[34m^[[m[0m[34m^M[m
+[33m339 [mclear_buffer.py  [34m^[[m[01;32mjohn_commor_c1218.py[34m^[[m[0m  README.md     [34m^[[m[01;34mm[33;1H[33m    [mtermineter2_capture[34m^[[m[0m[34m^M[m
+[33m340 [mdb_test.py       powermeter.db[8C serial[7C [34m^[[m[01;34mtest[34m^[[m[0m[34m^M[m
+[33m341 [m[34m^[[m]0;root@Vadar: /opt/python/john_commor_c1218[34m^G[mroot@Vadar:/opt/python/john__[36;1H[33m    [mcommor_c1218# vim ho[34m^G^H^[[m[K[34m^H^[[m[Kj[34m^G[mohn_commor[34m^M[m
+[33m342 [m[34m^[[m[?1049h[34m^[[m[?1h[34m^[[m=[34m^[[m[1;24r[34m^[[m[?12;25h[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[27m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25ll[38;1H[33m    [m[34m^[[m[24;1H"john_commor" [noeol] 286L, 5749C[34m^[[m[>c[34m^[[m[1;1H[34m^[[m[1m john_commor [34m^[[m[m[34m^^[m[39;1H[33m    [m[34m[[m[7m[66C [34m^[[m[m[34m^[m[37;1H[1m[34m@                                                                               [38;1H@                                                                               [39;1H@                                                                               [m[40;63H320,1[9C51%[8;5H[?12l[?25h[?25l[40;63H[K[40;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l[40;1H[K[40;1H[?1l>[?12l[?25h[?1049l]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218# clear
+[H[2J]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218# ls
+[0m[01;34mbackup[0m           john_commor           [01;32mpts_ports.sh[0m  [01;34mtermineter2[0m
+clear_buffer.py  [01;32mjohn_commor_c1218.py[0m  README.md     [01;34mtermineter2_capture[0m
+db_test.py       powermeter.db         serial        [01;34mtest[0m
+]0;root@Vadar: /opt/python/john_commor_c1218root@Vadar:/opt/python/john_commor_c1218# cd [K[K[Kcd termineter2_capture/
+]0;root@Vadar: /opt/python/john_commor_c1218/termineter2_captureroot@Vadar:/opt/python/john_commor_c1218/termineter2_capture# ls
+brute_force_log.txt  CrcMoose.py   [0m[01;32minstall.sh[0m              [01;32mtermineter2.py[0m
+[01;34mc1218[0m                CrcMoose.pyc  powermeter.db           typescript
+[01;34mc1219[0m                [01;34mframework[0m     README
+COPYING              INSTALL       smart_meter_tables.csv
+]0;root@Vadar: /opt/python/john_commor_c1218/termineter2_captureroot@Vadar:/opt/python/john_commor_c1218/termineter2_capture# cd c1211[K9
+]0;root@Vadar: /opt/python/john_commor_c1218/termineter2_capture/c1219root@Vadar:/opt/python/john_commor_c1218/termineter2_capture/c1219# ls
+[0m[01;34maccess[0m        constants.pyc  data.pyc   errors.pyc   __init__.pyc
+constants.py  data.py        errors.py  __init__.py
+]0;root@Vadar: /opt/python/john_commor_c1218/termineter2_capture/c1219root@Vadar:/opt/python/john_commor_c1218/termineter2_capture/c1219# vim[K[K[Kcd ..
+]0;root@Vadar: /opt/python/john_commor_c1218/termineter2_captureroot@Vadar:/opt/python/john_commor_c1218/termineter2_capture# ls
+brute_force_log.txt  CrcMoose.py   [0m[01;32minstall.sh[0m              [01;32mtermineter2.py[0m
+[01;34mc1218[0m                CrcMoose.pyc  powermeter.db           typescript
+[01;34mc1219[0m                [01;34mframework[0m     README
+COPYING              INSTALL       smart_meter_tables.csv
+]0;root@Vadar: /opt/python/john_commor_c1218/termineter2_captureroot@Vadar:/opt/python/john_commor_c1218/termineter2_capture# cd c12118[K[K8/[K/
+]0;root@Vadar: /opt/python/john_commor_c1218/termineter2_capture/c1218root@Vadar:/opt/python/john_commor_c1218/termineter2_capture/c1218# ls
+connection.py   data.py   errors.py   __init__.py   powermeter.db  utils.pyc
+connection.pyc  data.pyc  errors.pyc  __init__.pyc  utils.py
+]0;root@Vadar: /opt/python/john_commor_c1218/termineter2_capture/c1218root@Vadar:/opt/python/john_commor_c1218/termineter2_capture/c1218# vim connectioon.py
+[?1049h[?1h=[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"connection.py" 434L, 16839C[>c[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m  1 [m[34m#  c1218/connection.py[m
+[33m  2 [m[34m#  [m
+[33m  3 [m[34m#  Copyright 2011 Spencer J. McIntyre <SMcIntyre [at] SecureState [dot] net>[m[5;1H[33m  4 [m[34m#  [m
+[33m  5 [m[34m#  This program is free software; you can redistribute it and/or modify[m
+[33m  6 [m[34m#  it under the terms of the GNU General Public License as published by[m
+[33m  7 [m[34m#  the Free Software Foundation; either version 2 of the License, or[m
+[33m  8 [m[34m#  (at your option) any later version.[m
+[33m  9 [m[34m#  [m
+[33m 10 [m[34m#  This program is distributed in the hope that it will be useful,[m
+[33m 11 [m[34m#  but WITHOUT ANY WARRANTY; without even the implied warranty of[m
+[33m 12 [m[34m#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the[m
+[33m 13 [m[34m#  GNU General Public License for more details.[m
+[33m 14 [m[34m#  [m
+[33m 15 [m[34m#  You should have received a copy of the GNU General Public License[m
+[33m 16 [m[34m#  along with this program; if not, write to the Free Software[m
+[33m 17 [m[34m#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,[m
+[33m 18 [m[34m#  MA 02110-1301, USA.[m
+[33m 19 
+ 20 [m[35mfrom[m binascii [35mimport[m hexlify, unhexlify
+[33m 21 [m[35mfrom[m struct [35mimport[m pack, unpack
+[33m 22 [m[35mfrom[m random [35mimport[m randint
+[33m 23 [m[35mfrom[m time [35mimport[m sleep
+[33m 24 [m[35mimport[m logging
+[33m 25 [m[35mimport[m serial
+[33m 26 [m[35mfrom[m c1218.data [35mimport[m *
+[33m 27 [m[35mfrom[m c1218.utils [35mimport[m find_strings, data_chksum_str
+[33m 28 [m[35mfrom[m c1218.errors [35mimport[m C1218IOError, C1218ReadTableError, C1218WriteTableEE[30;1H[33m    [mrror
+[33m 29 [m[35mfrom[m c1219.data [35mimport[m C1219ProcedureInit
+[33m 30 [m[35mfrom[m c1219.errors [35mimport[m C1219ProcedureError
+[33m 31 [m[35mimport[m sqlite3 [33mas[m lite
+[33m 32 
+ 33 
+ 34 [mERROR_CODE_DICT = {[31m1[m:[31m'err (Error)'[m, [31m2[m:[31m'sns (Service Not Supported)'[m, [31m3[m:[31m'isc  [m[37;1H[33m    [m[31m(Insufficient Security Clearance)'[m, [31m4[m:[31m'onp (Operation Not Possible)'[m, [31m5[m:[31m'iarr[m[38;1H[33m    [m[31m (Inappropriate Action Requested)'[m, [31m6[m:[31m'bsy (Device Busy)'[m, [31m7[m:[31m'dnr (Data Not  [m[39;1H[33m    [m[31mReady)'[m, [31m8[m:[31m'dlk (Data Locked)'[m, [31m9[m:[31m'rno (Renegotiate Request)'[m, [31m10[m:[31m'isss (Inv[m[36;1H[1m[34m@                                                                               [37;1H@                                                                               [38;1H@                                                                               [39;1H@                                                                               [m[40;63H1,1[11CTop[2;5H[?12l[?25h[?25l[40;1H[K[40;1H/[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25h[?25l[62C20,22[9CTop[21;26H[?12l[?25h[?25l[40;63H[K[40;1H[62C20,33[9CTop[21;37H[?12l[?25h[?25l[40;63H[K[40;1H[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m114 [m[31m        a c1218.data.C1218Packet or a c1218.data.C1218Packet instance to[m
+[33m115 [m[31m        be sent[m
+[33m116 [m[31m        @param: the data to be transmitted[m
+[33m117 [m[31m        """[m
+[33m118 [m[7C [33mif[m [33mnot[m [36misinstance[m(data, C1218Packet):
+[33m119 [m[11C data = C1218Packet(data)
+[33m120 [m[7C [33mif[m self.toggle_control: [34m# bit wise, fuck yeah[m
+[33m121 [m[11C [33mif[m self.__toggle_bit__:
+[33m122 [m[15C data.control = [36mchr[m([36mord[m(data.control) | [31m0x20[m)
+[33m123 [m[15C self.__toggle_bit__ = [36mFalse[m
+[33m124 [m[11C [33melif[m [33mnot[m self.__toggle_bit__:
+[33m125 [m[15C [33mif[m [36mord[m(data.control) & [31m0x20[m:
+[33m126 [m[19C data.control = [36mchr[m([36mord[m(data.control) ^ [31m0x20[m)
+[33m127 [m[15C self.__toggle_bit__ = [36mTrue[m
+[33m128 [m[7C [33melif[m self.toggle_control [33mand[m [33mnot[m [36misinstance[m(data, C1218Packet):
+[33m129 [m[11C self.loggerio.warning([31m'toggle bit is on but the data is not a C11[m[18;1H[33m    [m[31m218Packet instance'[m)
+[33m130 [m[7C data = [36mstr[m(data)
+[33m131 [m[7C self.loggerio.debug([31m'sending frame, length: '[m + [36mstr[m([36mlen[m(data)) + [31m' dd[m[21;1H[33m    [m[31mata: '[m + hexlify(data))
+[33m132 [m[7C [33mfor[m pktcount [33min[m [36mxrange[m([31m0[m, [31m3[m):
+[33m133 [m[11C self.write(data)
+[33m134 [m[11C response = self.serial_h.read([31m1[m)
+[33m135 [m[11C [34m#print 'read send----' + hexlify(response) + '\n'[m
+[33m136 [m[11C [33mif[m response == NACK:
+[33m137 [m[15C self.loggerio.warning([31m'received a NACK after writing data'[m)
+[33m138 [m[15C sleep([31m0.10[m)
+[33m139 [m[11C [33melif[m response == [31m''[m:
+[33m140 [m[15C self.loggerio.error([31m'received empty response after writing dd[m[31;1H[33m    [m[31mata'[m)
+[33m141 [m[15C sleep([31m0.10[m)
+[33m142 [m[11C [33melif[m response != ACK:
+[33m143 [m[15C self.loggerio.error([31m'received unknown response: '[m + [36mhex[m([36mord[m(([35;1H[33m    [mresponse)) + [31m' after writing data'[m)
+[33m144 [m[11C [33melse[m:
+[33m145 [m[15C [33mreturn
+146 [m[7C self.loggerio.critical([31m'failed 3 times to correctly send a frame'[m)
+[33m147 [m[7C [33mraise[m C1218IOError([31m'failed 3 times to correctly send a frame'[m)[40;63H131,80-86     28%[21;14H[?12l[?25h[?25l[40;1H/hex[40;63H[K[40;1H[62C135,29-38     28%[25;42H[?12l[?25h[?25l[40;63H[K[40;1H[62C143,57-69     28%[34;73H[?12l[?25h[?25l[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m146 [m[7C self.loggerio.critical([31m'failed 3 times to correctly send a frame'[m)
+[33m147 [m[7C [33mraise[m C1218IOError([31m'failed 3 times to correctly send a frame'[m)
+[33m148 
+149 [m    [33mdef[m [36mrecv[m(self):
+[33m150 [m[7C [31m"""[m
+[33m151 [m[31m        Receive a C1218Packet, the payload data is returned.[m
+[33m152 [m[31m        """[m
+[33m153 [m[7C payloadbuffer = [31m''[m
+[33m154 [m[7C tries = [31m3[m
+[33m155 [m[7C [33mwhile[m tries:
+[33m156 [m[11C tmpbuffer = self.serial_h.read([31m1[m)
+[33m157 [m[11C [34m#print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'[m
+[33m158 [m[11C [33mif[m tmpbuffer != [31m'[m[35m\xee[m[31m'[m:
+[33m159 [m[15C self.loggerio.error([31m'did not receive [m[35m\\[m[31mxee as the first bytee[m[16;1H[33m    [m[31m of the frame'[m)
+[33m160 [m[15C self.loggerio.debug([31m'received [m[35m\\[m[31mx'[m + tmpbuffer.encode([31m'hex'[m))[18;1H[33m    [m + [31m' instead'[m)
+[33m161 [m[15C tries -= [31m1[m
+[33m162 [m[15C [33mcontinue
+163 
+164 [m[11C tmpbuffer += self.serial_h.read([31m3[m)
+[33m165 [m[11C [34m#print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'[m
+[33m166 [m[11C sequence = [36mord[m(tmpbuffer[-[31m1[m])
+[33m167 [m[11C length = self.serial_h.read([31m2[m)
+[33m168 [m[11C [36mprint[m [31m'length --- '[m + hexlify(length) + [31m'[m[35m\n[m[31m'[m
+[33m169 [m[11C tmpbuffer += length
+[33m170 [m[11C [36mprint[m [31m'tmpbuffer + length --- '[m + hexlify(tmpbuffer) + [31m'[m[35m\n[m[31m'[m
+[33m171 [m[11C tmpbuffer_log = tmpbuffer
+[33m172 [m[11C length = unpack([31m'>H'[m, length)[[31m0[m]
+[33m173 [m[11C payload = self.serial_h.read(length)
+[33m174 [m[11C [36mprint[m [31m'payload   --- '[m + hexlify(payload)
+[33m175 [m[11C tmpbuffer += payload
+[33m176 [m[11C [36mprint[m [31m'tmpbuffer + payload ---- '[m + hexlify(tmpbuffer)
+[33m177 [m[11C chksum = self.serial_h.read([31m2[m)
+[33m178 [m[11C [36mprint[m [31m'chksum ---- '[m + hexlify(chksum)
+[33m179 
+180 [m[11C self.cur = self.con.cursor()
+[33m181 [m[11C self.cur.execute([31m'SELECT * FROM response where response = ? and [m[39;1H[1m[34m@                                                                               [m[40;63H146,3-9[7C36%[2;13H[?12l[?25h[?25l[40;1H/hex[40;63H[K[40;1H[62C157,30-39     36%[13;43H[?12l[?25h[?25l[40;63H[K[40;1H[62C160,60-72     36%[17;76H[?12l[?25h[?25l[40;63H[K[40;1H[62C165,30-39     36%[23;43H[?12l[?25h[?25l[40;63H[K[40;1H[62C168,26-35     36%[26;39H[?12l[?25h[?25l[40;63H[K[40;1H[62C170,38-47     36%[28;51H[?12l[?25h[?25l[40;63H[K[40;1H[62C174,29-38     36%[32;42H[?12l[?25h[?25l[40;63H[K[40;1H[62C176,40-49     36%[34;53H[?12l[?25h[?25l[40;63H[K[40;1H[62C178,27-36     36%[36;40H[?12l[?25h[?25l[40;63H[K[40;1H[2;39r[2;1H[2M[1;40r[37;1H[33m181 [m            self.cur.execute([31m'SELECT * FROM response where response = ? and  [m[38;1H[33m    [m[31mpayload = ? and chksum  = ?'[m,([36mstr[m(hexlify(tmpbuffer_log)),[36mstr[m(hexlify(payloaa[39;1H[33m    [md)),[36mstr[m(hexlify(chksum))))[40;1H[K[40;63H181,102-111   36%[38;39H[?12l[?25h[?25l
+
+/hex[40;63H[K[40;1H[62C181,130-139   36%[38;67H[?12l[?25h[?25l[40;63H[K[40;1H[62C181,152-161   36%[39;13H[?12l[?25h[?25l[40;63H[K[40;1H[2;39r[2;1H[7M[1;40r[33;1H[33m182 [m[11C rows = self.cur.fetchall()
+[33m183 [m[11C test = [36mlen[m(rows)
+[33m184 [m[11C lid = [31m0[m
+[33m185 [m[11C [33mif[m test == [31m0[m:
+[33m186 [m[15C self.cur.execute([31m'INSERT INTO response(response,payload,chkss[m[38;1H[33m    [m[31mum) values (?,?,?)'[m,([36mstr[m(hexlify(tmpbuffer_log)),[36mstr[m(hexlify(payload)),[36mstr[m(hh[39;1H[33m    [mexlify(chksum))))[40;1H[K[40;63H186,90-102    38%[38;30H[?12l[?25h[?25l
+
+/hex[40;63H[K[40;1H[62C186,118-130   38%[38;58H[?12l[?25h[?25l[40;63H[K[40;1H[62C186,140-152   38%[38;80H[?12l[?25h[?25l[40;63H[K[40;1H[2;39r[2;1H[8M[1;40r[32;1H[33m187 [m[15C lid = self.cur.lastrowid
+[33m188 [m[11C [33melse[m:
+[33m189 [m[15C lid = rows[[31m0[m][[31m0[m]
+[33m190 
+191 
+192 [m[11C [36mprint[m [31m" lid:"[m+[36mstr[m(lid)
+[33m193 [m[11C self.cur.execute([31m'INSERT INTO request(write,response_id) values  [m[39;1H[33m    [m[31m(?,?)'[m,([36mstr[m(hexlify(self.write_data)),[36mstr[m(lid)))[40;1H[K[40;63H193,80-89     39%[39;17H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[2;39r[2;1H[3M[1;40r[37;1H[33m194 [m[11C self.con.commit()
+[33m195 [m[11C self.write_log([31m','[m)
+[33m196 [m[11C self.write_log(hexlify(chksum))[40;1H[K[40;63H196,19-28     40%[39;32H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[2;39r[2;1H[6M[1;40r[34;1H[33m197 [m[11C self.write_log([31m'[m[35m\n[m[31m'[m)
+[33m198 [m[11C [33mif[m chksum == crc_str(tmpbuffer):
+[33m199 [m[15C self.serial_h.write(ACK)
+[33m200 [m[15C data = tmpbuffer + chksum
+[33m201 [m[15C self.loggerio.debug([31m'received frame, length: '[m + [36mstr[m([36mlen[m(datt[39;1H[33m    [ma)) + [31m' data: '[m + hexlify(data))[40;1H[K[40;63H201,83-95     42%[39;23H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m210 [m[15C self.loggerio.warning([31m'crc does not match on received frame''[m[3;1H[33m    [m)
+[33m211 [m[15C tries -= [31m1[m
+[33m212 [m[7C self.loggerio.critical([31m'failed 3 times to correctly receive a frame''[m[6;1H[33m    [m)
+[33m213 [m[7C [33mraise[m C1218IOError([31m'failed 3 times to correctly receive a frame'[m)
+[33m214 
+215 [m    [33mdef[m [36mwrite[m(self, data):
+[33m216 
+217 
+218 [m[7C [31m"""[m
+[33m219 [m[31m        Write raw data to the serial connection. The CRC must already be[m
+[33m220 [m[31m        included at the end. This function is not meant to be called[m
+[33m221 [m[31m        directly.[m
+[33m222 [m[31m        [m
+[33m223 [m[31m        @type data: String[m
+[33m224 [m[31m        @param data: The raw data to write to the serial connection.[m
+[33m225 [m[31m        """[m
+[33m226 
+227 [m[7C [34m#print '-----------write ' + hexlify(data) + '\n' [m
+[33m228 [m[7C self.write_data = data
+[33m229 [m[7C [34m#print self.write_log(hexlify(data))[m
+[33m230 
+231 [m[7C [33mreturn[m self.serial_h.write(data)
+[33m232 
+233 [m    [33mdef[m [36mread[m(self, size):
+[33m234 [m[7C [31m"""[m
+[33m235 [m[31m        Read raw data from the serial connection. This function is not[m
+[33m236 [m[31m        meant to be called directly.[m
+[33m237 [m[31m        [m
+[33m238 [m[31m        @type size: Integer[m
+[33m239 [m[31m        @param size: The number of bytes to read from the serial connection.[m[34;1H[33m240 [m[31m        """[m
+[33m241 [m[7C data = self.serial_h.read(size)
+[33m242 [m[7C [34m#print '--------read' + hexlify(data) + '\n'[m
+[33m243 [m[7C self.logger.debug([31m'read data, length: '[m + [36mstr[m([36mlen[m(data)) + [31m' data: ''[m[38;1H[33m    [m + hexlify(data))
+[33m244 [m[7C self.serial_h.write(ACK)[40;63H227,32-38     52%[21;42H[?12l[?25h[?25l[40;1H/hex[40;63H[K[40;1H[62C229,25-31     52%[23;35H[?12l[?25h[?25l[40;63H[K[40;1H[62C242,27-33     52%[36;37H[?12l[?25h[?25l[40;63H[K[40;1H[62C243,74-80     52%[38;8H[?12l[?25h[?25l[40;63H[K[40;1H[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m404 [m[11C self.logger.error([31m'could not write data to the table, error: '[m ++[3;1H[33m    [m details)
+[33m405 [m[11C [33mraise[m C1218WriteTableError([31m'could not write data to the table, ee[m[5;1H[33m    [m[31mrror: '[m + details, status)
+[33m406 [m[7C [33mreturn[m [36mNone[m
+[33m407 
+408 [m    [33mdef[m [36mrunProcedure[m(self, process_number, std_vs_mfg, params = [31m''[m):
+[33m409 [m[7C [31m"""[m
+[33m410 [m[31m        Initiate a C1219 procedure, the request is written to table 7 and[m
+[33m411 [m[31m        the response is read from table 8.[m
+[33m412 [m[31m        [m
+[33m413 [m[31m        @type process_number: Integer (0 <= process_number <= 2047)[m
+[33m414 [m[31m        @param process_number: The numeric procedure identifier.[m
+[33m415 [m[31m        [m
+[33m416 [m[31m        @type std_vs_mfg: Boolean[m
+[33m417 [m[31m        @param std_vs_mfg: Whether the procedure is manufacturer specified[m
+[33m418 [m[31m        or not.  True is manufacturer specified.[m
+[33m419 [m[31m        [m
+[33m420 [m[31m        @type params: String[m
+[33m421 [m[31m        @param params: The parameters to pass to the procedure initiation[m
+[33m422 [m[31m        request.[m
+[33m423 [m[31m        """[m
+[33m424 [m[7C seqnum = randint([31m2[m, [31m254[m)
+[33m425 [m[7C self.logger.info([31m'starting procedure: '[m + [36mstr[m(process_number) + [31m' see[m[26;1H[33m    [m[31mquence number: '[m + [36mstr[m(seqnum) + [31m' ('[m + [36mhex[m(seqnum) + [31m')'[m)
+[33m426 [m[7C procedure_request = [36mstr[m(C1219ProcedureInit(self.c1219_endian, process[28;1H[33m    [ms_number, std_vs_mfg, [31m0[m, seqnum, params))
+[33m427 [m[7C self.setTableData([31m7[m, procedure_request)
+[33m428 
+429 [m[7C response = self.getTableData([31m8[m)
+[33m430 [m[7C [33mif[m response[:[31m3[m] == procedure_request[:[31m3[m]:
+[33m431 [m[11C [33mreturn[m [36mord[m(response[[31m3[m]), response[[31m4[m:]
+[33m432 [m[7C [33melse[m:
+[33m433 [m[11C self.logger.error([31m'invalid response from procedure response tabll[m[36;1H[33m    [m[31me (table #8)'[m)
+[33m434 [m[11C [33mraise[m C1219ProcedureError([31m'invalid response from procedure respoo[m[38;1H[33m    [m[31mnse table (table #8)'[m)
+[1m[34m~                                                                               [m[40;63H425,111-117   Bot[26;45H[?12l[?25h[?25l[40;1H/hex[40;63H[K[40;1H[31msearch hit BOTTOM, continuing at TOP[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m  2 [m[34m#  [m
+[33m  3 [m[34m#  Copyright 2011 Spencer J. McIntyre <SMcIntyre [at] SecureState [dot] net>[m[4;1H[33m  4 [m[34m#  [m
+[33m  5 [m[34m#  This program is free software; you can redistribute it and/or modify[m
+[33m  6 [m[34m#  it under the terms of the GNU General Public License as published by[m
+[33m  7 [m[34m#  the Free Software Foundation; either version 2 of the License, or[m
+[33m  8 [m[34m#  (at your option) any later version.[m
+[33m  9 [m[34m#  [m
+[33m 10 [m[34m#  This program is distributed in the hope that it will be useful,[m
+[33m 11 [m[34m#  but WITHOUT ANY WARRANTY; without even the implied warranty of[m
+[33m 12 [m[34m#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the[m
+[33m 13 [m[34m#  GNU General Public License for more details.[m
+[33m 14 [m[34m#  [m
+[33m 15 [m[34m#  You should have received a copy of the GNU General Public License[m
+[33m 16 [m[34m#  along with this program; if not, write to the Free Software[m
+[33m 17 [m[34m#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,[m
+[33m 18 [m[34m#  MA 02110-1301, USA.[m
+[33m 19 
+ 20 [m[35mfrom[m binascii [35mimport[m hexlify, unhexlify
+[33m 21 [m[35mfrom[m struct [35mimport[m pack, unpack
+[33m 22 [m[35mfrom[m random [35mimport[m randint
+[33m 23 [m[35mfrom[m time [35mimport[m sleep
+[33m 24 [m[35mimport[m logging
+[33m 25 [m[35mimport[m serial
+[33m 26 [m[35mfrom[m c1218.data [35mimport[m *
+[33m 27 [m[35mfrom[m c1218.utils [35mimport[m find_strings, data_chksum_str
+[33m 28 [m[35mfrom[m c1218.errors [35mimport[m C1218IOError, C1218ReadTableError, C1218WriteTableEE[29;1H[33m    [mrror
+[33m 29 [m[35mfrom[m c1219.data [35mimport[m C1219ProcedureInit
+[33m 30 [m[35mfrom[m c1219.errors [35mimport[m C1219ProcedureError
+[33m 31 [m[35mimport[m sqlite3 [33mas[m lite
+[33m 32 
+ 33 
+ 34 [mERROR_CODE_DICT = {[31m1[m:[31m'err (Error)'[m, [31m2[m:[31m'sns (Service Not Supported)'[m, [31m3[m:[31m'isc  [m[36;1H[33m    [m[31m(Insufficient Security Clearance)'[m, [31m4[m:[31m'onp (Operation Not Possible)'[m, [31m5[m:[31m'iarr[m[37;1H[33m    [m[31m (Inappropriate Action Requested)'[m, [31m6[m:[31m'bsy (Device Busy)'[m, [31m7[m:[31m'dnr (Data Not  [m[38;1H[33m    [m[31mReady)'[m, [31m8[m:[31m'dlk (Data Locked)'[m, [31m9[m:[31m'rno (Renegotiate Request)'[m, [31m10[m:[31m'isss (Invv[m[39;1H[33m    [m[31malid Service Sequence State)'[m}[40;63H20,22[10C0%[31msearch hit BOTTOM, continuing at TOP[m[40;63H[K[40;63H20,22[10C0%[20;26H[?12l[?25h[?25l[40;1H/hex[40;5H[K[40;1H[62C20,33[10C0%[20;37H[?12l[?25h[?25l[40;63H[K[40;1H[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m114 [m[31m        a c1218.data.C1218Packet or a c1218.data.C1218Packet instance to[m
+[33m115 [m[31m        be sent[m
+[33m116 [m[31m        @param: the data to be transmitted[m
+[33m117 [m[31m        """[m
+[33m118 [m[7C [33mif[m [33mnot[m [36misinstance[m(data, C1218Packet):
+[33m119 [m[11C data = C1218Packet(data)
+[33m120 [m[7C [33mif[m self.toggle_control: [34m# bit wise, fuck yeah[m
+[33m121 [m[11C [33mif[m self.__toggle_bit__:
+[33m122 [m[15C data.control = [36mchr[m([36mord[m(data.control) | [31m0x20[m)
+[33m123 [m[15C self.__toggle_bit__ = [36mFalse[m
+[33m124 [m[11C [33melif[m [33mnot[m self.__toggle_bit__:
+[33m125 [m[15C [33mif[m [36mord[m(data.control) & [31m0x20[m:
+[33m126 [m[19C data.control = [36mchr[m([36mord[m(data.control) ^ [31m0x20[m)
+[33m127 [m[15C self.__toggle_bit__ = [36mTrue[m
+[33m128 [m[7C [33melif[m self.toggle_control [33mand[m [33mnot[m [36misinstance[m(data, C1218Packet):
+[33m129 [m[11C self.loggerio.warning([31m'toggle bit is on but the data is not a C11[m[18;1H[33m    [m[31m218Packet instance'[m)
+[33m130 [m[7C data = [36mstr[m(data)
+[33m131 [m[7C self.loggerio.debug([31m'sending frame, length: '[m + [36mstr[m([36mlen[m(data)) + [31m' dd[m[21;1H[33m    [m[31mata: '[m + hexlify(data))
+[33m132 [m[7C [33mfor[m pktcount [33min[m [36mxrange[m([31m0[m, [31m3[m):
+[33m133 [m[11C self.write(data)
+[33m134 [m[11C response = self.serial_h.read([31m1[m)
+[33m135 [m[11C [34m#print 'read send----' + hexlify(response) + '\n'[m
+[33m136 [m[11C [33mif[m response == NACK:
+[33m137 [m[15C self.loggerio.warning([31m'received a NACK after writing data'[m)
+[33m138 [m[15C sleep([31m0.10[m)
+[33m139 [m[11C [33melif[m response == [31m''[m:
+[33m140 [m[15C self.loggerio.error([31m'received empty response after writing dd[m[31;1H[33m    [m[31mata'[m)
+[33m141 [m[15C sleep([31m0.10[m)
+[33m142 [m[11C [33melif[m response != ACK:
+[33m143 [m[15C self.loggerio.error([31m'received unknown response: '[m + [36mhex[m([36mord[m(([35;1H[33m    [mresponse)) + [31m' after writing data'[m)
+[33m144 [m[11C [33melse[m:
+[33m145 [m[15C [33mreturn
+146 [m[7C self.loggerio.critical([31m'failed 3 times to correctly send a frame'[m)
+[33m147 [m[7C [33mraise[m C1218IOError([31m'failed 3 times to correctly send a frame'[m)[40;63H131,80-86     28%[21;14H[?12l[?25h[?25l[40;1H/hex[40;63H[K[40;1H[62C135,29-38     28%[25;42H[?12l[?25h[?25l[40;63H[K[40;1H[62C143,57-69     28%[34;73H[?12l[?25h[?25l[40;63H[K[40;1H[2;39r[2;1H[10M[1;40r[30;1H[33m148 
+149 [m    [33mdef[m [36mrecv[m(self):
+[33m150 [m[7C [31m"""[m
+[33m151 [m[31m        Receive a C1218Packet, the payload data is returned.[m
+[33m152 [m[31m        """[m
+[33m153 [m[7C payloadbuffer = [31m''[m
+[33m154 [m[7C tries = [31m3[m
+[33m155 [m[7C [33mwhile[m tries:
+[33m156 [m[11C tmpbuffer = self.serial_h.read([31m1[m)
+[33m157 [m[11C [34m#print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'[m[40;1H[K[40;63H157,30-39     30%[39;43H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[2;39r[2;1H[5M[1;40r[35;1H[33m158 [m[11C [33mif[m tmpbuffer != [31m'[m[35m\xee[m[31m'[m:
+[33m159 [m[15C self.loggerio.error([31m'did not receive [m[35m\\[m[31mxee as the first bytee[m[37;1H[33m    [m[31m of the frame'[m)
+[33m160 [m[15C self.loggerio.debug([31m'received [m[35m\\[m[31mx'[m + tmpbuffer.encode([31m'hex'[m))[39;1H[33m    [m + [31m' instead'[m)[40;1H[K[40;63H160,60-72     31%[38;76H[?12l[?25h[?25l
+
+/hex[40;63H[K[40;1H[2;39r[2;1H[5M[1;40r[35;1H[33m161 [m[15C tries -= [31m1[m
+[33m162 [m[15C [33mcontinue
+163 
+164 [m[11C tmpbuffer += self.serial_h.read([31m3[m)
+[33m165 [m[11C [34m#print 'tmpbuffer --- ' + hexlify(tmpbuffer) + '\n'[m[40;1H[K[40;63H165,30-39     32%[39;43H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[2;39r[2;1H[3M[1;40r[37;1H[33m166 [m[11C sequence = [36mord[m(tmpbuffer[-[31m1[m])
+[33m167 [m[11C length = self.serial_h.read([31m2[m)
+[33m168 [m[11C [36mprint[m [31m'length --- '[m + hexlify(length) + [31m'[m[35m\n[m[31m'[m[40;1H[K[40;63H168,26-35     33%[39;39H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[2;39r[2;1H[2M[1;40r[38;1H[33m169 [m[11C tmpbuffer += length
+[33m170 [m[11C [36mprint[m [31m'tmpbuffer + length --- '[m + hexlify(tmpbuffer) + [31m'[m[35m\n[m[31m'[m[40;1H[K[40;63H170,38-47     34%[39;51H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[2;39r[2;1H[5M[1;40r[35;1H[33m171 [m[11C tmpbuffer_log = tmpbuffer
+[33m172 [m[11C length = unpack([31m'>H'[m, length)[[31m0[m]
+[33m173 [m[11C payload = self.serial_h.read(length)
+[33m174 [m[11C [36mprint[m [31m'payload   --- '[m + hexlify(payload)
+[33m175 [m[11C tmpbuffer += payload[40;1H[K[40;63H174,29-38     35%[38;42H[?12l[?25h[?25l
+
+/hex[40;63H[K[40;1H[2;39r[39;1H
+[1;40r[39;1H[33m176 [m[11C [36mprint[m [31m'tmpbuffer + payload ---- '[m + hexlify(tmpbuffer)[40;1H[K[40;63H176,40-49     35%[39;53H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[2;39r[2;1H[3M[1;40r[37;1H[33m177 [m[11C chksum = self.serial_h.read([31m2[m)
+[33m178 [m[11C [36mprint[m [31m'chksum ---- '[m + hexlify(chksum)
+[33m179 [m[40;1H[K[40;63H178,27-36     35%[38;40H[?12l[?25h[?25l
+
+/hex[40;63H[K[40;1H[2;39r[2;1H[4M[1;40r[36;1H[33m180 [m[11C self.cur = self.con.cursor()
+[33m181 [m[11C self.cur.execute([31m'SELECT * FROM response where response = ? and  [m[38;1H[33m    [m[31mpayload = ? and chksum  = ?'[m,([36mstr[m(hexlify(tmpbuffer_log)),[36mstr[m(hexlify(payloaa[39;1H[33m    [md)),[36mstr[m(hexlify(chksum))))[40;1H[K[40;63H181,102-111   36%[38;39H[?12l[?25h[?25l
+
+/hex[40;63H[K[40;1H[62C181,130-139   36%[38;67H[?12l[?25h[?25l[40;63H[K[40;1H[62C181,152-161   36%[39;13H[?12l[?25h[?25l[40;63H[K[40;1H[2;39r[2;1H[7M[1;40r[33;1H[33m182 [m[11C rows = self.cur.fetchall()
+[33m183 [m[11C test = [36mlen[m(rows)
+[33m184 [m[11C lid = [31m0[m
+[33m185 [m[11C [33mif[m test == [31m0[m:
+[33m186 [m[15C self.cur.execute([31m'INSERT INTO response(response,payload,chkss[m[38;1H[33m    [m[31mum) values (?,?,?)'[m,([36mstr[m(hexlify(tmpbuffer_log)),[36mstr[m(hexlify(payload)),[36mstr[m(hh[39;1H[33m    [mexlify(chksum))))[40;1H[K[40;63H186,90-102    38%[38;30H[?12l[?25h[?25l
+
+/hex[40;63H[K[40;1H[62C186,118-130   38%[38;58H[?12l[?25h[?25l[40;63H[K[40;1H[62C186,140-152   38%[38;80H[?12l[?25h[?25l[40;63H[K[40;1H[2;39r[2;1H[8M[1;40r[32;1H[33m187 [m[15C lid = self.cur.lastrowid
+[33m188 [m[11C [33melse[m:
+[33m189 [m[15C lid = rows[[31m0[m][[31m0[m]
+[33m190 
+191 
+192 [m[11C [36mprint[m [31m" lid:"[m+[36mstr[m(lid)
+[33m193 [m[11C self.cur.execute([31m'INSERT INTO request(write,response_id) values  [m[39;1H[33m    [m[31m(?,?)'[m,([36mstr[m(hexlify(self.write_data)),[36mstr[m(lid)))[40;1H[K[40;63H193,80-89     39%[39;17H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[2;39r[2;1H[3M[1;40r[37;1H[33m194 [m[11C self.con.commit()
+[33m195 [m[11C self.write_log([31m','[m)
+[33m196 [m[11C self.write_log(hexlify(chksum))[40;1H[K[40;63H196,19-28     40%[39;32H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[2;39r[2;1H[6M[1;40r[34;1H[33m197 [m[11C self.write_log([31m'[m[35m\n[m[31m'[m)
+[33m198 [m[11C [33mif[m chksum == crc_str(tmpbuffer):
+[33m199 [m[15C self.serial_h.write(ACK)
+[33m200 [m[15C data = tmpbuffer + chksum
+[33m201 [m[15C self.loggerio.debug([31m'received frame, length: '[m + [36mstr[m([36mlen[m(datt[39;1H[33m    [ma)) + [31m' data: '[m + hexlify(data))[40;1H[K[40;63H201,83-95     42%[39;23H[?12l[?25h[?25l
+/hex[40;63H[K[40;1H[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m210 [m[15C self.loggerio.warning([31m'crc does not match on received frame''[m[3;1H[33m    [m)
+[33m211 [m[15C tries -= [31m1[m
+[33m212 [m[7C self.loggerio.critical([31m'failed 3 times to correctly receive a frame''[m[6;1H[33m    [m)
+[33m213 [m[7C [33mraise[m C1218IOError([31m'failed 3 times to correctly receive a frame'[m)
+[33m214 
+215 [m    [33mdef[m [36mwrite[m(self, data):
+[33m216 
+217 
+218 [m[7C [31m"""[m
+[33m219 [m[31m        Write raw data to the serial connection. The CRC must already be[m
+[33m220 [m[31m        included at the end. This function is not meant to be called[m
+[33m221 [m[31m        directly.[m
+[33m222 [m[31m        [m
+[33m223 [m[31m        @type data: String[m
+[33m224 [m[31m        @param data: The raw data to write to the serial connection.[m
+[33m225 [m[31m        """[m
+[33m226 
+227 [m[7C [34m#print '-----------write ' + hexlify(data) + '\n' [m
+[33m228 [m[7C self.write_data = data
+[33m229 [m[7C [34m#print self.write_log(hexlify(data))[m
+[33m230 
+231 [m[7C [33mreturn[m self.serial_h.write(data)
+[33m232 
+233 [m    [33mdef[m [36mread[m(self, size):
+[33m234 [m[7C [31m"""[m
+[33m235 [m[31m        Read raw data from the serial connection. This function is not[m
+[33m236 [m[31m        meant to be called directly.[m
+[33m237 [m[31m        [m
+[33m238 [m[31m        @type size: Integer[m
+[33m239 [m[31m        @param size: The number of bytes to read from the serial connection.[m[34;1H[33m240 [m[31m        """[m
+[33m241 [m[7C data = self.serial_h.read(size)
+[33m242 [m[7C [34m#print '--------read' + hexlify(data) + '\n'[m
+[33m243 [m[7C self.logger.debug([31m'read data, length: '[m + [36mstr[m([36mlen[m(data)) + [31m' data: ''[m[38;1H[33m    [m + hexlify(data))
+[33m244 [m[7C self.serial_h.write(ACK)[40;63H227,32-38     52%[21;42H[?12l[?25h[?25l[40;1H/hex[40;63H[K[40;1H[62C229,25-31     52%[23;35H[?12l[?25h[?25l[40;63H[K[40;1H[62C242,27-33     52%[36;37H[?12l[?25h[?25l[40;63H[K[40;1H[62C243,74-80     52%[38;8H[?12l[?25h[?25l[40;63H[K[40;1H[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m404 [m[11C self.logger.error([31m'could not write data to the table, error: '[m ++[3;1H[33m    [m details)
+[33m405 [m[11C [33mraise[m C1218WriteTableError([31m'could not write data to the table, ee[m[5;1H[33m    [m[31mrror: '[m + details, status)
+[33m406 [m[7C [33mreturn[m [36mNone[m
+[33m407 
+408 [m    [33mdef[m [36mrunProcedure[m(self, process_number, std_vs_mfg, params = [31m''[m):
+[33m409 [m[7C [31m"""[m
+[33m410 [m[31m        Initiate a C1219 procedure, the request is written to table 7 and[m
+[33m411 [m[31m        the response is read from table 8.[m
+[33m412 [m[31m        [m
+[33m413 [m[31m        @type process_number: Integer (0 <= process_number <= 2047)[m
+[33m414 [m[31m        @param process_number: The numeric procedure identifier.[m
+[33m415 [m[31m        [m
+[33m416 [m[31m        @type std_vs_mfg: Boolean[m
+[33m417 [m[31m        @param std_vs_mfg: Whether the procedure is manufacturer specified[m
+[33m418 [m[31m        or not.  True is manufacturer specified.[m
+[33m419 [m[31m        [m
+[33m420 [m[31m        @type params: String[m
+[33m421 [m[31m        @param params: The parameters to pass to the procedure initiation[m
+[33m422 [m[31m        request.[m
+[33m423 [m[31m        """[m
+[33m424 [m[7C seqnum = randint([31m2[m, [31m254[m)
+[33m425 [m[7C self.logger.info([31m'starting procedure: '[m + [36mstr[m(process_number) + [31m' see[m[26;1H[33m    [m[31mquence number: '[m + [36mstr[m(seqnum) + [31m' ('[m + [36mhex[m(seqnum) + [31m')'[m)
+[33m426 [m[7C procedure_request = [36mstr[m(C1219ProcedureInit(self.c1219_endian, process[28;1H[33m    [ms_number, std_vs_mfg, [31m0[m, seqnum, params))
+[33m427 [m[7C self.setTableData([31m7[m, procedure_request)
+[33m428 
+429 [m[7C response = self.getTableData([31m8[m)
+[33m430 [m[7C [33mif[m response[:[31m3[m] == procedure_request[:[31m3[m]:
+[33m431 [m[11C [33mreturn[m [36mord[m(response[[31m3[m]), response[[31m4[m:]
+[33m432 [m[7C [33melse[m:
+[33m433 [m[11C self.logger.error([31m'invalid response from procedure response tabll[m[36;1H[33m    [m[31me (table #8)'[m)
+[33m434 [m[11C [33mraise[m C1219ProcedureError([31m'invalid response from procedure respoo[m[38;1H[33m    [m[31mnse table (table #8)'[m)
+[1m[34m~                                                                               [m[40;63H425,111-117   Bot[26;45H[?12l[?25h[?25l[40;1H/hex[40;63H[K[40;1H[31msearch hit BOTTOM, continuing at TOP[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m  2 [m[34m#  [m
+[33m  3 [m[34m#  Copyright 2011 Spencer J. McIntyre <SMcIntyre [at] SecureState [dot] net>[m[4;1H[33m  4 [m[34m#  [m
+[33m  5 [m[34m#  This program is free software; you can redistribute it and/or modify[m
+[33m  6 [m[34m#  it under the terms of the GNU General Public License as published by[m
+[33m  7 [m[34m#  the Free Software Foundation; either version 2 of the License, or[m
+[33m  8 [m[34m#  (at your option) any later version.[m
+[33m  9 [m[34m#  [m
+[33m 10 [m[34m#  This program is distributed in the hope that it will be useful,[m
+[33m 11 [m[34m#  but WITHOUT ANY WARRANTY; without even the implied warranty of[m
+[33m 12 [m[34m#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the[m
+[33m 13 [m[34m#  GNU General Public License for more details.[m
+[33m 14 [m[34m#  [m
+[33m 15 [m[34m#  You should have received a copy of the GNU General Public License[m
+[33m 16 [m[34m#  along with this program; if not, write to the Free Software[m
+[33m 17 [m[34m#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,[m
+[33m 18 [m[34m#  MA 02110-1301, USA.[m
+[33m 19 
+ 20 [m[35mfrom[m binascii [35mimport[m hexlify, unhexlify
+[33m 21 [m[35mfrom[m struct [35mimport[m pack, unpack
+[33m 22 [m[35mfrom[m random [35mimport[m randint
+[33m 23 [m[35mfrom[m time [35mimport[m sleep
+[33m 24 [m[35mimport[m logging
+[33m 25 [m[35mimport[m serial
+[33m 26 [m[35mfrom[m c1218.data [35mimport[m *
+[33m 27 [m[35mfrom[m c1218.utils [35mimport[m find_strings, data_chksum_str
+[33m 28 [m[35mfrom[m c1218.errors [35mimport[m C1218IOError, C1218ReadTableError, C1218WriteTableEE[29;1H[33m    [mrror
+[33m 29 [m[35mfrom[m c1219.data [35mimport[m C1219ProcedureInit
+[33m 30 [m[35mfrom[m c1219.errors [35mimport[m C1219ProcedureError
+[33m 31 [m[35mimport[m sqlite3 [33mas[m lite
+[33m 32 
+ 33 
+ 34 [mERROR_CODE_DICT = {[31m1[m:[31m'err (Error)'[m, [31m2[m:[31m'sns (Service Not Supported)'[m, [31m3[m:[31m'isc  [m[36;1H[33m    [m[31m(Insufficient Security Clearance)'[m, [31m4[m:[31m'onp (Operation Not Possible)'[m, [31m5[m:[31m'iarr[m[37;1H[33m    [m[31m (Inappropriate Action Requested)'[m, [31m6[m:[31m'bsy (Device Busy)'[m, [31m7[m:[31m'dnr (Data Not  [m[38;1H[33m    [m[31mReady)'[m, [31m8[m:[31m'dlk (Data Locked)'[m, [31m9[m:[31m'rno (Renegotiate Request)'[m, [31m10[m:[31m'isss (Invv[m[39;1H[33m    [m[31malid Service Sequence State)'[m}[40;63H20,22[10C0%[31msearch hit BOTTOM, continuing at TOP[m[40;63H[K[40;63H20,22[10C0%[20;26H[?12l[?25h[?25l[40;63H19,0-1[19;5H[?12l[?25h[?25l[40;64H8,22 [18;26H[?12l[?25h[?25l[40;64H9,0-1[19;5H[?12l[?25h[?25l[40;63H20,22 [20;26H[?12l[?25h[?25l[40;1H[K[40;1H/[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25hf[?25l[?12l[?25hy[?25l[?12l[?25h[?25l[62C20,33[10C0%[20;37H[?12l[?25h[?25l[40;63H[K[40;1H[27m[m[H[2J[1;1H[1m connection.py [m[7m                                                                 [m[2;1H[33m114 [m[31m        a c1218.data.C1218Packet or a c1218.data.C1218Packet instance to[m
+[33m115 [m[31m        be sent[m
+[33m116 [m[31m        @param: the data to be transmitted[m
+[33m117 [m[31m        """[m
+[33m118 [m[7C [33mif[m [33mnot[m [36misinstance[m(data, C1218Packet):
+[33m119 [m[11C data = C1218Packet(data)
+[33m120 [m[7C [33mif[m self.toggle_control: [34m# bit wise, fuck yeah[m
+[33m121 [m[11C [33mif[m self.__toggle_bit__:
+[33m122 [m[15C data.control = [36mchr[m([36mord[m(data.control) | [31m0x20[m)
+[33m123 [m[15C self.__toggle_bit__ = [36mFalse[m
+[33m124 [m[11C [33melif[m [33mnot[m self.__toggle_bit__:
+[33m125 [m[15C [33mif[m [36mord[m(data.control) & [31m0x20[m:
+[33m126 [m[19C data.control = [36mchr[m([36mord[m(data.control) ^ [31m0x20[m)
+[33m127 [m[15C self.__toggle_bit__ = [36mTrue[m
+[33m128 [m[7C [33melif[m self.toggle_control [33mand[m [33mnot[m [36misinstance[m(data, C1218Packet):
+[33m129 [m[11C self.loggerio.warning([31m'toggle bit is on but the data is not a C11[m[18;1H[33m    [m[31m218Packet instance'[m)
+[33m130 [m[7C data = [36mstr[m(data)
+[33m131 [m[7C self.loggerio.debug([31m'sending frame, length: '[m + [36mstr[m([36mlen[m(data)) + [31m' dd[m[21;1H[33m    [m[31mata: '[m + hexlify(data))
+[33m132 [m[7C [33mfor[m pktcount [33min[m [36mxrange[m([31m0[m, [31m3[m):
+[33m133 [m[11C self.write(data)
+[33m134 [m[11C response = self.serial_h.read([31m1[m)
+[33m135 [m[11C [34m#print 'read send----' + hexlify(response) + '\n'[m
+[33m136 [m[11C [33mif[m response == NACK:
+[33m137 [m[15C self.loggerio.warning([31m'received a NACK after writing data'[m)
+[33m138 [m[15C sleep([31m0.10[m)
+[33m139 [m[11C [33melif[m response == [31m''[m:
+[33m140 [m[15C self.loggerio.error([31m'received empty response after writing dd[m[31;1H[33m    [m[31mata'[m)
+[33m141 [m[15C sleep([31m0.10[m)
+[33m142 [m[11C [33melif[m response != ACK:
+[33m143 [m[15C self.loggerio.error([31m'received unknown response: '[m + [36mhex[m([36mord[m(([35;1H[33m    [mresponse)
